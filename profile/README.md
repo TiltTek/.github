@@ -91,18 +91,18 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 
 ✅ **released** · 🧪 **written, in incubation** (approximate completion) · 🗓️ **planned**
 
-**113 packages:** 20 in incubation, 93 planned; none released yet. Percentages are estimates from our
-latest status report (7 November 2026).
+**114 packages:** 24 in incubation, 90 planned; none released yet. Percentages are estimates from our
+latest status report ((8 November 2026)).
 
 <details>
 <summary><b>Gamification core</b> — 🧪 16 · 🗓️ 12</summary>
 
 - `tilttek/activity` · 🧪 95% — The common entry: member activity recorded once, its totals and replayable projections
-- `tilttek/activity-bundle` · 🧪 80% — Activity recording in Symfony, with optional asynchronous projections
+- `tilttek/activity-bundle` · 🧪 95% — Activity recording in Symfony, with optional asynchronous projections
 - `tilttek/points` · 🧪 95% — A double-entry points ledger: currencies, earning rules, caps, FIFO expiry, never negative
 - `tilttek/points-bundle` · 🧪 95% — Points ledgers and rules configured in Symfony
-- `tilttek/badges` · 🧪 85% — Badges and achievements: criteria, tiers, hidden achievements, titles, showcase
-- `tilttek/badges-bundle` · 🧪 90% — Badges in Symfony: awarding, showcase, sharing with the member's consent
+- `tilttek/badges` · 🧪 90% — Badges and achievements: criteria, tiers, hidden achievements, titles, showcase
+- `tilttek/badges-bundle` · 🧪 92% — Badges in Symfony: awarding, showcase, sharing with the member's consent
 - `tilttek/progression` · 🧪 95% — Experience and levels on a curve, several tracks, streaks in the member's time zone, seasons
 - `tilttek/progression-bundle` · 🧪 95% — Progression in Symfony, with streak freezes and milestone rewards
 - `tilttek/quests` · 🧪 95% — Quests and challenges in steps: personal, community, team and duels
@@ -111,8 +111,8 @@ latest status report (7 November 2026).
 - `tilttek/collections-bundle` · 🧪 90% — Collections and dice sets in Symfony
 - `tilttek/exchange` · 🧪 85% — Trade points for rewards in two steps, and swap collectibles between members
 - `tilttek/exchange-bundle` · 🧪 90% — Reward shops and member trades in Symfony
-- `tilttek/leaderboards` · 🧪 70% — Leaderboards by measure and period, opt-in, pseudonyms, friend circles, snapshots
-- `tilttek/leaderboards-bundle` · 🧪 75% — Leaderboards configured and shown in Symfony
+- `tilttek/leaderboards` · 🧪 85% — Leaderboards by measure and period, opt-in, pseudonyms, friend circles, snapshots
+- `tilttek/leaderboards-bundle` · 🧪 85% — Leaderboards configured and shown in Symfony
 - `tilttek/kudos` · 🗓️ planned — Thanks between members, with no public count or ranking
 - `tilttek/referrals` · 🗓️ planned — Referrals rewarded in points, never in money
 - `tilttek/guilds` · 🗓️ planned — Member guilds and their shared goals
@@ -129,15 +129,16 @@ latest status report (7 November 2026).
 </details>
 
 <details>
-<summary><b>Dice &amp; randomness</b> — 🧪 4 · 🗓️ 11</summary>
+<summary><b>Dice &amp; randomness</b> — 🧪 8 · 🗓️ 8</summary>
 
-- `tilttek/dice` · 🧪 65% — Dice notation parsed, validated and rolled: pools, custom faces, verifiable and replayable rolls
-- `tilttek/dice-bundle` · 🧪 70% — Dice rolls in Symfony, Twig and the API
-- `tilttek/generator` · 🧪 80% — A grammar engine for random text, with French, English, Spanish, German, Italian and Portuguese grammars
-- `tilttek/generator-bundle` · 🧪 88% — Generators in Symfony, served by an API
-- `tilttek/dice-probability` · 🗓️ planned — Exact dice statistics: distributions, at least / at most, mean, events
-- `tilttek/dice-probability-bundle` · 🗓️ planned — Dice statistics as tables and charts in Live Components
-- `tilttek/loot-tables` · 🗓️ planned — Loot tables that declare their dice, drawn verifiably once (provisional name)
+- `tilttek/dice` · 🧪 90% — Dice notation parsed, validated and rolled: pools, custom faces, verifiable and replayable rolls
+- `tilttek/dice-bundle` · 🧪 85% — Dice rolls in Symfony, Twig and the API
+- `tilttek/generator` · 🧪 85% — A grammar engine for random text, with French, English, Spanish, German, Italian and Portuguese grammars
+- `tilttek/generator-bundle` · 🧪 90% — Generators in Symfony, served by an API
+- `tilttek/dice-probability` · 🧪 92% — Exact dice statistics: distributions, at least / at most, mean, events
+- `tilttek/dice-probability-bundle` · 🧪 90% — Dice statistics as tables and charts in Live Components
+- `tilttek/loot-tables` · 🧪 90% — Loot tables that declare their dice, drawn verifiably once (provisional name)
+- `tilttek/loot-tables-bundle` · 🧪 85% — Loot tables in Symfony, with published commitments to the draws
 - `tilttek/accessible-dice` · 🗓️ planned — Dice read without seeing colours or aiming at small buttons, announced to screen readers
 - `tilttek/dice-tower` · 🗓️ planned — A table's shared dice tower: every roll seen by all, in order
 - `tilttek/secret-rolls` · 🗓️ planned — Hidden GM rolls, kept verifiable and revealed later
@@ -357,18 +358,18 @@ probabilités, et les classements se font sur accord.
 
 ✅ **publié** · 🧪 **écrit, en incubation** (avancement approximatif) · 🗓️ **prévu**
 
-**113 paquets :** 20 en incubation, 93 prévus ; aucun n'est encore publié. Les pourcentages sont des
-estimations tirées de notre dernier rapport d'avancement (7 novembre 2026).
+**114 paquets :** 24 en incubation, 90 prévus ; aucun n'est encore publié. Les pourcentages sont des
+estimations tirées de notre dernier rapport d'avancement ((8 novembre 2026)).
 
 <details>
 <summary><b>Cœur de la ludification</b> — 🧪 16 · 🗓️ 12</summary>
 
 - `tilttek/activity` · 🧪 95 % — L'entrée commune : l'activité d'un membre enregistrée une fois, ses totaux et ses projections rejouables
-- `tilttek/activity-bundle` · 🧪 80 % — L'enregistrement de l'activité dans Symfony, avec projections asynchrones facultatives
+- `tilttek/activity-bundle` · 🧪 95 % — L'enregistrement de l'activité dans Symfony, avec projections asynchrones facultatives
 - `tilttek/points` · 🧪 95 % — Un grand livre de points à double entrée : devises, règles de gain, plafonds, expiration FIFO, jamais négatif
 - `tilttek/points-bundle` · 🧪 95 % — Les grands livres et règles de points configurés dans Symfony
-- `tilttek/badges` · 🧪 85 % — Badges et succès : critères, paliers, succès cachés, titres, vitrine
-- `tilttek/badges-bundle` · 🧪 90 % — Les badges dans Symfony : décernement, vitrine, partage avec l'accord du membre
+- `tilttek/badges` · 🧪 90 % — Badges et succès : critères, paliers, succès cachés, titres, vitrine
+- `tilttek/badges-bundle` · 🧪 92 % — Les badges dans Symfony : décernement, vitrine, partage avec l'accord du membre
 - `tilttek/progression` · 🧪 95 % — Expérience et niveaux sur une courbe, plusieurs pistes, séries au fuseau du membre, saisons
 - `tilttek/progression-bundle` · 🧪 95 % — La progression dans Symfony, avec gel des séries et paliers récompensés
 - `tilttek/quests` · 🧪 95 % — Quêtes et défis à étapes : personnels, communautaires, d'équipe et duels
@@ -377,8 +378,8 @@ estimations tirées de notre dernier rapport d'avancement (7 novembre 2026).
 - `tilttek/collections-bundle` · 🧪 90 % — Les collections et les sets de dés dans Symfony
 - `tilttek/exchange` · 🧪 85 % — Échanger des points contre des récompenses en deux temps, et des objets entre membres
 - `tilttek/exchange-bundle` · 🧪 90 % — Boutiques de récompenses et échanges entre membres dans Symfony
-- `tilttek/leaderboards` · 🧪 70 % — Classements par mesure et période, sur accord, pseudonymes, cercles d'amis, instantanés
-- `tilttek/leaderboards-bundle` · 🧪 75 % — Les classements configurés et montrés dans Symfony
+- `tilttek/leaderboards` · 🧪 85 % — Classements par mesure et période, sur accord, pseudonymes, cercles d'amis, instantanés
+- `tilttek/leaderboards-bundle` · 🧪 85 % — Les classements configurés et montrés dans Symfony
 - `tilttek/kudos` · 🗓️ prévu — Les remerciements entre membres, sans décompte public ni classement
 - `tilttek/referrals` · 🗓️ prévu — Le parrainage récompensé en points, jamais en argent
 - `tilttek/guilds` · 🗓️ prévu — Les guildes de membres et leurs objectifs communs
@@ -395,15 +396,16 @@ estimations tirées de notre dernier rapport d'avancement (7 novembre 2026).
 </details>
 
 <details>
-<summary><b>Dés et hasard</b> — 🧪 4 · 🗓️ 11</summary>
+<summary><b>Dés et hasard</b> — 🧪 8 · 🗓️ 8</summary>
 
-- `tilttek/dice` · 🧪 65 % — La notation des dés lue, validée et lancée : réserves, faces propres, lancers vérifiables et rejouables
-- `tilttek/dice-bundle` · 🧪 70 % — Les lancers de dés dans Symfony, Twig et l'API
-- `tilttek/generator` · 🧪 80 % — Un moteur de grammaire pour le texte au hasard, avec les grammaires française, anglaise, espagnole, allemande, italienne et portugaise
-- `tilttek/generator-bundle` · 🧪 88 % — Les générateurs dans Symfony, servis par une API
-- `tilttek/dice-probability` · 🗓️ prévu — Les statistiques exactes des dés : distributions, au moins / au plus, moyenne, événements
-- `tilttek/dice-probability-bundle` · 🗓️ prévu — Les statistiques des dés en tableaux et graphiques en Live Component
-- `tilttek/loot-tables` · 🗓️ prévu — Des tables de butin qui déclarent leurs dés, tirées de façon vérifiable une seule fois (nom provisoire)
+- `tilttek/dice` · 🧪 90 % — La notation des dés lue, validée et lancée : réserves, faces propres, lancers vérifiables et rejouables
+- `tilttek/dice-bundle` · 🧪 85 % — Les lancers de dés dans Symfony, Twig et l'API
+- `tilttek/generator` · 🧪 85 % — Un moteur de grammaire pour le texte au hasard, avec les grammaires française, anglaise, espagnole, allemande, italienne et portugaise
+- `tilttek/generator-bundle` · 🧪 90 % — Les générateurs dans Symfony, servis par une API
+- `tilttek/dice-probability` · 🧪 92 % — Les statistiques exactes des dés : distributions, au moins / au plus, moyenne, événements
+- `tilttek/dice-probability-bundle` · 🧪 90 % — Les statistiques des dés en tableaux et graphiques en Live Component
+- `tilttek/loot-tables` · 🧪 90 % — Des tables de butin qui déclarent leurs dés, tirées de façon vérifiable une seule fois (nom provisoire)
+- `tilttek/loot-tables-bundle` · 🧪 85 % — Les tables de butin dans Symfony, avec les engagements publiés des tirages
 - `tilttek/accessible-dice` · 🗓️ prévu — Des dés lisibles sans voir les couleurs ni viser de petits boutons, annoncés aux lecteurs d'écran
 - `tilttek/dice-tower` · 🗓️ prévu — La tour de dés commune d'une table : chaque jet vu par tous, dans l'ordre
 - `tilttek/secret-rolls` · 🗓️ prévu — Les jets cachés du meneur, gardés vérifiables et révélés ensuite
