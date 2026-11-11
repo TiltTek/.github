@@ -50,7 +50,7 @@ Tilttek follows every rule of the PHIL packages:
   always in a new version of our packages.
 - **Strict quality gates.** PHPStan at its maximum level with strict rules, PHP-CS-Fixer with the Symfony rules and
   strict types, Rector, Deptrac, Arkitect, PHPUnit failing on any deprecation, and every package tested on its own.
-- **A 100 % mutation score.** Infection must kill every mutant; the bar is never lowered.
+- **A perfect mutation score.** Infection must kill every mutant; the bar is never lowered.
 - **Accessible by default.** Keyboard and screen readers, reduced motion, contrast — and dice whose faces are never
   told by colour alone.
 - **Every language, not only ours.** The generator already speaks French, English, Spanish, German, Italian and
@@ -84,19 +84,18 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 
 | Repository | What it holds | State |
 |---|---|---|
-| [ux-kit](https://github.com/TiltTek/ux-kit) | Gamification recipes for the Symfony UX Toolkit — achievement showcase, level gauge, streak flame, quest board, leaderboard, dice roller, collection binder — built on the Shadcn-compatible components and styled with phil-ux. `php bin/console ux:install <recipe> --kit=github.com/TiltTek/ux-kit` | 🗓️ planned |
-| [ux-kit-shadcn](https://github.com/TiltTek/ux-kit-shadcn) | The same recipes in Tailwind, in the Shadcn style | 🗓️ planned |
+| [ux-kit](https://github.com/TiltTek/ux-kit) | Gamification recipes for the Symfony UX Toolkit — achievement showcase, level gauge, streak flame, quest board, leaderboard, dice roller, collection binder — built on the Shadcn-compatible components and styled with phil-ux. `php bin/console ux:install <recipe> --kit=github.com/TiltTek/ux-kit` | 🧪 in incubation |
+| [ux-kit-shadcn](https://github.com/TiltTek/ux-kit-shadcn) | The same recipes in Tailwind, in the Shadcn style | 🧪 in incubation |
 
 ## The packages
 
-✅ **released** · 🧪 **written, in incubation** (approximate completion) · 🗓️ **planned**
+✅ **released** · 🧪 **in incubation**
 
-**129 packages:** 17 released, 7 in incubation, 105 planned. Percentages are estimates from our
-latest status report (11 November 2026). The released packages are developed in the public monorepo
+**129 packages:** 17 released, 112 in incubation. The released packages are developed in the public monorepo
 [`tilttek`](https://github.com/TiltTek/tilttek), each split into its own read-only repository.
 
 <details>
-<summary><b>Gamification core</b> — ✅ 13 · 🧪 3 · 🗓️ 18</summary>
+<summary><b>Gamification core</b> — ✅ 13 · 🧪 21</summary>
 
 - [`tilttek/activity`](https://github.com/TiltTek/activity) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/activity)) — The common entry: member activity recorded once, its totals and replayable projections
 - [`tilttek/activity-bundle`](https://github.com/TiltTek/activity-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/activity-bundle)) — Activity recording in Symfony, with optional asynchronous projections
@@ -111,170 +110,170 @@ latest status report (11 November 2026). The released packages are developed in 
 - [`tilttek/collections`](https://github.com/TiltTek/collections) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/collections)) — Collectibles: rarity, sets, duplicates, item of the day, packs with published, verifiable odds
 - [`tilttek/collections-bundle`](https://github.com/TiltTek/collections-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/collections-bundle)) — Collections and dice sets in Symfony
 - [`tilttek/exchange`](https://github.com/TiltTek/exchange) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/exchange)) — Trade points for rewards in two steps, and swap collectibles between members
-- `tilttek/exchange-bundle` · 🧪 90% — Reward shops and member trades in Symfony
-- `tilttek/leaderboards` · 🧪 85% — Leaderboards by measure and period, opt-in, pseudonyms, friend circles, snapshots
-- `tilttek/leaderboards-bundle` · 🧪 85% — Leaderboards configured and shown in Symfony
-- `tilttek/kudos` · 🗓️ planned — Thanks between members, with no public count or ranking
-- `tilttek/referrals` · 🗓️ planned — Referrals rewarded in points, never in money
-- `tilttek/guilds` · 🗓️ planned — Member guilds and their shared goals
-- `tilttek/seasonal-events` · 🗓️ planned — Seasons and their events: quests, items and decor of a period
-- `tilttek/check-in-rewards` · 🗓️ planned — Rewards for showing up, at a shop booth or a convention
-- `tilttek/stickers` · 🗓️ planned — Virtual stickers for profiles and messages
-- `tilttek/advent-calendar` · 🗓️ planned — An advent calendar: one box a day, one surprise a box
-- `tilttek/predictions` · 🗓️ planned — Predictions staked in points only
-- `tilttek/raffle` · 🗓️ planned — Verifiable draws, with no buying of chances
-- `tilttek/fan-awards` · 🗓️ planned — Fan awards: categories, nominations, votes
-- `tilttek/geek-dates` · 🗓️ planned — Geek culture dates, as data
-- `tilttek/rpg-calendar-events` · 🗓️ planned — Role-playing calendar events, as data
-- `tilttek/sets` · 🗓️ planned — Shared code for badge sets and collection sets, a neutral building block
-- `tilttek/celebrations` · 🗓️ planned — A rewards box that receives every package's achievements and shows each once
-- `tilttek/bounties` · 🗓️ planned — Playful bounties prepaid in points, time-limited, never in money
-- `tilttek/friend-challenges` · 🗓️ planned — Member-made challenges, between friends too, with a points prize held in escrow
-- `tilttek/gamification-insights` · 🗓️ planned — An aggregated, anonymous dashboard to balance gamification
-- `tilttek/play-insights-bundle` · 🗓️ planned — Play measures shared by quests and progression, in aggregate
+- `tilttek/exchange-bundle` · 🧪 in incubation — Reward shops and member trades in Symfony
+- `tilttek/leaderboards` · 🧪 in incubation — Leaderboards by measure and period, opt-in, pseudonyms, friend circles, snapshots
+- `tilttek/leaderboards-bundle` · 🧪 in incubation — Leaderboards configured and shown in Symfony
+- `tilttek/kudos` · 🧪 in incubation — Thanks between members, with no public count or ranking
+- `tilttek/referrals` · 🧪 in incubation — Referrals rewarded in points, never in money
+- `tilttek/guilds` · 🧪 in incubation — Member guilds and their shared goals
+- `tilttek/seasonal-events` · 🧪 in incubation — Seasons and their events: quests, items and decor of a period
+- `tilttek/check-in-rewards` · 🧪 in incubation — Rewards for showing up, at a shop booth or a convention
+- `tilttek/stickers` · 🧪 in incubation — Virtual stickers for profiles and messages
+- `tilttek/advent-calendar` · 🧪 in incubation — An advent calendar: one box a day, one surprise a box
+- `tilttek/predictions` · 🧪 in incubation — Predictions staked in points only
+- `tilttek/raffle` · 🧪 in incubation — Verifiable draws, with no buying of chances
+- `tilttek/fan-awards` · 🧪 in incubation — Fan awards: categories, nominations, votes
+- `tilttek/geek-dates` · 🧪 in incubation — Geek culture dates, as data
+- `tilttek/rpg-calendar-events` · 🧪 in incubation — Role-playing calendar events, as data
+- `tilttek/sets` · 🧪 in incubation — Shared code for badge sets and collection sets, a neutral building block
+- `tilttek/celebrations` · 🧪 in incubation — A rewards box that receives every package's achievements and shows each once
+- `tilttek/bounties` · 🧪 in incubation — Playful bounties prepaid in points, time-limited, never in money
+- `tilttek/friend-challenges` · 🧪 in incubation — Member-made challenges, between friends too, with a points prize held in escrow
+- `tilttek/gamification-insights` · 🧪 in incubation — An aggregated, anonymous dashboard to balance gamification
+- `tilttek/play-insights-bundle` · 🧪 in incubation — Play measures shared by quests and progression, in aggregate
 
 </details>
 
 <details>
-<summary><b>Dice &amp; randomness</b> — ✅ 4 · 🧪 4 · 🗓️ 8</summary>
+<summary><b>Dice &amp; randomness</b> — ✅ 4 · 🧪 12</summary>
 
 - [`tilttek/dice`](https://github.com/TiltTek/dice) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice)) — Dice notation parsed, validated and rolled: pools, custom faces, verifiable and replayable rolls
 - [`tilttek/dice-bundle`](https://github.com/TiltTek/dice-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice-bundle)) — Dice rolls in Symfony: replayable rolls, macros, a form field and Twig
 - [`tilttek/dice-probability`](https://github.com/TiltTek/dice-probability) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice-probability)) — Exact dice statistics: distributions, at least / at most, mean, events
 - [`tilttek/loot-tables`](https://github.com/TiltTek/loot-tables) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/loot-tables)) — Loot tables that declare their dice, drawn verifiably once (provisional name)
-- `tilttek/generator` · 🧪 92% — A grammar engine for random text, with French, English, Spanish, German, Italian and Portuguese grammars
-- `tilttek/generator-bundle` · 🧪 93% — Generators in Symfony, served by an API
-- `tilttek/dice-probability-bundle` · 🧪 90% — Dice statistics as tables and charts in Live Components
-- `tilttek/loot-tables-bundle` · 🧪 85% — Loot tables in Symfony, with published commitments to the draws
-- `tilttek/accessible-dice` · 🗓️ planned — Dice read without seeing colours or aiming at small buttons, announced to screen readers
-- `tilttek/dice-tower` · 🗓️ planned — A table's shared dice tower: every roll seen by all, in order
-- `tilttek/secret-rolls` · 🗓️ planned — Hidden GM rolls, kept verifiable and revealed later
-- `tilttek/dice-jail` · 🗓️ planned — Dice jail for unlucky dice, and the statistics behind it
-- `tilttek/dice-skins` · 🗓️ planned — The look of a member's dice
-- `tilttek/luck-tokens` · 🗓️ planned — Luck, inspiration or fate tokens a table gives and spends
-- `tilttek/card-deck` · 🗓️ planned — Card decks shuffled, drawn and discarded
-- `tilttek/heraldry` · 🗓️ planned — Coats of arms generated and blazoned
+- `tilttek/generator` · 🧪 in incubation — A grammar engine for random text, with French, English, Spanish, German, Italian and Portuguese grammars
+- `tilttek/generator-bundle` · 🧪 in incubation — Generators in Symfony, served by an API
+- `tilttek/dice-probability-bundle` · 🧪 in incubation — Dice statistics as tables and charts in Live Components
+- `tilttek/loot-tables-bundle` · 🧪 in incubation — Loot tables in Symfony, with published commitments to the draws
+- `tilttek/accessible-dice` · 🧪 in incubation — Dice read without seeing colours or aiming at small buttons, announced to screen readers
+- `tilttek/dice-tower` · 🧪 in incubation — A table's shared dice tower: every roll seen by all, in order
+- `tilttek/secret-rolls` · 🧪 in incubation — Hidden GM rolls, kept verifiable and revealed later
+- `tilttek/dice-jail` · 🧪 in incubation — Dice jail for unlucky dice, and the statistics behind it
+- `tilttek/dice-skins` · 🧪 in incubation — The look of a member's dice
+- `tilttek/luck-tokens` · 🧪 in incubation — Luck, inspiration or fate tokens a table gives and spends
+- `tilttek/card-deck` · 🧪 in incubation — Card decks shuffled, drawn and discarded
+- `tilttek/heraldry` · 🧪 in incubation — Coats of arms generated and blazoned
 
 </details>
 
 <details>
-<summary><b>At the table</b> — 🗓️ 18</summary>
+<summary><b>At the table</b> — 🧪 18</summary>
 
-- `tilttek/table-safety` · 🗓️ planned — Safety tools: lines and veils, consent checklist, session zero, X-card, anonymous by default
-- `tilttek/table-safety-bundle` · 🗓️ planned — Safety tools in Symfony, with session-zero templates
-- `tilttek/table-presence` · 🗓️ planned — Who is at the online table, away or on a break
-- `tilttek/table-rules` · 🗓️ planned — House rules written and accepted, and the rule variants a table picks
-- `tilttek/spotlight` · 🗓️ planned — Share playing time fairly and see who is waiting
-- `tilttek/initiative-cards` · 🗓️ planned — Initiative tracking with cards
-- `tilttek/gm-screen` · 🗓️ planned — A GM screen, on screen or printed
-- `tilttek/session-prep` · 🗓️ planned — Session preparation: scenes, NPCs, notes
-- `tilttek/gm-tips` · 🗓️ planned — Tips for the GM, by situation
-- `tilttek/player-knowledge` · 🗓️ planned — What players know, kept apart from what their characters know
-- `tilttek/handouts` · 🗓️ planned — Handouts given to players during play
-- `tilttek/soundboard` · 🗓️ planned — Ambiences and sound effects for a session
-- `tilttek/rpg-systems` · 🗓️ planned — A registry of game systems: attributes, dice, terms
-- `tilttek/reference-tables` · 🗓️ planned — A system's reference tables
-- `tilttek/rules-lookup` · 🗓️ planned — Search a system's rules, SRDs included
-- `tilttek/flashcards` · 🗓️ planned — Learn a system's rules with spaced-repetition cards
-- `tilttek/encounter` · 🗓️ planned — Encounters composed and balanced for the system
-- `tilttek/grid` · 🗓️ planned — Square, hex, isometric or no grid, alignment and DPI reading; tools, never a virtual tabletop
-
-</details>
-
-<details>
-<summary><b>Characters</b> — 🗓️ 10</summary>
-
-- `tilttek/character-sheet` · 🗓️ planned — Character sheets per system: computed attributes, equipment
-- `tilttek/inventory` · 🗓️ planned — A character's inventory and encumbrance
-- `tilttek/conditions` · 🗓️ planned — Conditions and effects: poisons, diseases, mutations, lost limbs
-- `tilttek/party` · 🗓️ planned — A campaign's party, what it shares, and a balanced line-up
-- `tilttek/random-character` · 🗓️ planned — A random character, ready to play
-- `tilttek/token-maker` · 🗓️ planned — Virtual tabletop tokens from an image
-- `tilttek/relationships` · 🗓️ planned — Links between characters and NPCs, and how they evolve
-- `tilttek/polyglot` · 🗓️ planned — The languages a character speaks and reads, and what they understand of a text
-- `tilttek/character-retirement` · 🗓️ planned — A character's retirement or death, and their memorial
-- `tilttek/crafting` · 🗓️ planned — Item recipes that combine or evolve items
+- `tilttek/table-safety` · 🧪 in incubation — Safety tools: lines and veils, consent checklist, session zero, X-card, anonymous by default
+- `tilttek/table-safety-bundle` · 🧪 in incubation — Safety tools in Symfony, with session-zero templates
+- `tilttek/table-presence` · 🧪 in incubation — Who is at the online table, away or on a break
+- `tilttek/table-rules` · 🧪 in incubation — House rules written and accepted, and the rule variants a table picks
+- `tilttek/spotlight` · 🧪 in incubation — Share playing time fairly and see who is waiting
+- `tilttek/initiative-cards` · 🧪 in incubation — Initiative tracking with cards
+- `tilttek/gm-screen` · 🧪 in incubation — A GM screen, on screen or printed
+- `tilttek/session-prep` · 🧪 in incubation — Session preparation: scenes, NPCs, notes
+- `tilttek/gm-tips` · 🧪 in incubation — Tips for the GM, by situation
+- `tilttek/player-knowledge` · 🧪 in incubation — What players know, kept apart from what their characters know
+- `tilttek/handouts` · 🧪 in incubation — Handouts given to players during play
+- `tilttek/soundboard` · 🧪 in incubation — Ambiences and sound effects for a session
+- `tilttek/rpg-systems` · 🧪 in incubation — A registry of game systems: attributes, dice, terms
+- `tilttek/reference-tables` · 🧪 in incubation — A system's reference tables
+- `tilttek/rules-lookup` · 🧪 in incubation — Search a system's rules, SRDs included
+- `tilttek/flashcards` · 🧪 in incubation — Learn a system's rules with spaced-repetition cards
+- `tilttek/encounter` · 🧪 in incubation — Encounters composed and balanced for the system
+- `tilttek/grid` · 🧪 in incubation — Square, hex, isometric or no grid, alignment and DPI reading; tools, never a virtual tabletop
 
 </details>
 
 <details>
-<summary><b>Campaigns &amp; worlds</b> — 🗓️ 16</summary>
+<summary><b>Characters</b> — 🧪 10</summary>
 
-- `tilttek/session-scheduler` · 🗓️ planned — Campaign sessions: recurrence, absences, rescheduling
-- `tilttek/campaign-wiki` · 🗓️ planned — A campaign wiki and the GM's secrets
-- `tilttek/journal` · 🗓️ planned — Journals of many kinds: session recaps, character and solo journals
-- `tilttek/campaign-stats` · 🗓️ planned — A campaign's statistics
-- `tilttek/factions` · 🗓️ planned — Factions, their reputation and their clocks
-- `tilttek/downtime` · 🗓️ planned — Downtime between adventures: crafting, research, training
-- `tilttek/in-character-mail` · 🗓️ planned — In-character letters between sessions, read by the GM
-- `tilttek/legacy-campaign` · 🗓️ planned — Legacy campaigns and their permanent changes
-- `tilttek/west-marches` · 🗓️ planned — Open campaigns with several GMs and changing tables
-- `tilttek/pbp` · 🗓️ planned — Play-by-post, in scene threads
-- `tilttek/homebrew-hub` · 🗓️ planned — House rules shared, rated and reused from table to table
-- `tilttek/fantasy-calendar` · 🗓️ planned — Fantasy calendars
-- `tilttek/weather` · 🗓️ planned — In-world weather
-- `tilttek/travel` · 🗓️ planned — Journeys, their duration and their hazards
-- `tilttek/puzzle-builder` · 🗓️ planned — Riddles and puzzles for a scenario
-- `tilttek/player-handbook` · 🗓️ planned — A campaign's player handbook
+- `tilttek/character-sheet` · 🧪 in incubation — Character sheets per system: computed attributes, equipment
+- `tilttek/inventory` · 🧪 in incubation — A character's inventory and encumbrance
+- `tilttek/conditions` · 🧪 in incubation — Conditions and effects: poisons, diseases, mutations, lost limbs
+- `tilttek/party` · 🧪 in incubation — A campaign's party, what it shares, and a balanced line-up
+- `tilttek/random-character` · 🧪 in incubation — A random character, ready to play
+- `tilttek/token-maker` · 🧪 in incubation — Virtual tabletop tokens from an image
+- `tilttek/relationships` · 🧪 in incubation — Links between characters and NPCs, and how they evolve
+- `tilttek/polyglot` · 🧪 in incubation — The languages a character speaks and reads, and what they understand of a text
+- `tilttek/character-retirement` · 🧪 in incubation — A character's retirement or death, and their memorial
+- `tilttek/crafting` · 🧪 in incubation — Item recipes that combine or evolve items
 
 </details>
 
 <details>
-<summary><b>Finding players &amp; game nights</b> — 🗓️ 8</summary>
+<summary><b>Campaigns &amp; worlds</b> — 🧪 16</summary>
 
-- `tilttek/game-catalog` · 🗓️ planned — One game catalogue each site switches on: BoardGameGeek, RPGGeek, manual entries, errata
-- `tilttek/looking-for-group` · 🗓️ planned — Find players by system, by place or online
-- `tilttek/game-night` · 🗓️ planned — Game nights for a club or a shop: tables, games, sign-ups
-- `tilttek/tournament` · 🗓️ planned — Swiss or elimination tournaments and their pairings
-- `tilttek/math-trade` · 🗓️ planned — Chain game trades: the longest chain computed, everyone gives one and gets one
-- `tilttek/game-shelf` · 🗓️ planned — A member's game shelf and prioritized wishlist
-- `tilttek/play-log` · 🗓️ planned — A log of games played, players anonymous by default
-- `tilttek/rating` · 🗓️ planned — Per-game Elo rating, private by default, with an unrated friendly mode
-
-</details>
-
-<details>
-<summary><b>Games &amp; contests</b> — 🗓️ 13</summary>
-
-- `tilttek/quiz` · 🗓️ planned — Quizzes: questions, timer, score
-- `tilttek/bingo` · 🗓️ planned — Bingo cards for a convention or a session, ticked by events
-- `tilttek/mini-games` · 🗓️ planned — Small games played on the site
-- `tilttek/tavern-games` · 🗓️ planned — Tavern games from a game world, playable online
-- `tilttek/escape-room` · 🗓️ planned — Escape rooms: chained puzzles, hints, timer
-- `tilttek/murder-mystery` · 🗓️ planned — Murder-mystery nights: roles, clues, reveal
-- `tilttek/cosplay-contest` · 🗓️ planned — Cosplay contests: entries, walk-on, jury and public vote
-- `tilttek/cosplay-progress` · 🗓️ planned — A costume's build log, step by step
-- `tilttek/score-sheets` · 🗓️ planned — Score sheets
-- `tilttek/deck-builder` · 🗓️ planned — Build a card deck to a game's rules
-- `tilttek/game-engine` · 🗓️ planned — A generic state machine for online tabletop games, with Mercure and no game rules
-- `tilttek/turn-clock` · 🗓️ planned — Turn clocks: initial time, time per move, moves per day
-- `tilttek/jam` · 🗓️ planned — Themed creation jams with deadlines: entries, votes and jury
+- `tilttek/session-scheduler` · 🧪 in incubation — Campaign sessions: recurrence, absences, rescheduling
+- `tilttek/campaign-wiki` · 🧪 in incubation — A campaign wiki and the GM's secrets
+- `tilttek/journal` · 🧪 in incubation — Journals of many kinds: session recaps, character and solo journals
+- `tilttek/campaign-stats` · 🧪 in incubation — A campaign's statistics
+- `tilttek/factions` · 🧪 in incubation — Factions, their reputation and their clocks
+- `tilttek/downtime` · 🧪 in incubation — Downtime between adventures: crafting, research, training
+- `tilttek/in-character-mail` · 🧪 in incubation — In-character letters between sessions, read by the GM
+- `tilttek/legacy-campaign` · 🧪 in incubation — Legacy campaigns and their permanent changes
+- `tilttek/west-marches` · 🧪 in incubation — Open campaigns with several GMs and changing tables
+- `tilttek/pbp` · 🧪 in incubation — Play-by-post, in scene threads
+- `tilttek/homebrew-hub` · 🧪 in incubation — House rules shared, rated and reused from table to table
+- `tilttek/fantasy-calendar` · 🧪 in incubation — Fantasy calendars
+- `tilttek/weather` · 🧪 in incubation — In-world weather
+- `tilttek/travel` · 🧪 in incubation — Journeys, their duration and their hazards
+- `tilttek/puzzle-builder` · 🧪 in incubation — Riddles and puzzles for a scenario
+- `tilttek/player-handbook` · 🧪 in incubation — A campaign's player handbook
 
 </details>
 
 <details>
-<summary><b>Hobbies</b> — 🗓️ 6</summary>
+<summary><b>Finding players &amp; game nights</b> — 🧪 8</summary>
 
-- `tilttek/wargame-army` · 🗓️ planned — Army lists for miniature games
-- `tilttek/minis-tracker` · 🗓️ planned — Track miniatures bought, built and painted
-- `tilttek/paint-recipes` · 🗓️ planned — Miniature paint recipes: colours, steps, photos
-- `tilttek/reading-quests` · 🗓️ planned — Reading quests for a book
-- `tilttek/writing-goals` · 🗓️ planned — An author's writing goals
-- `tilttek/geocache-quests` · 🗓️ planned — Geocache quests
+- `tilttek/game-catalog` · 🧪 in incubation — One game catalogue each site switches on: BoardGameGeek, RPGGeek, manual entries, errata
+- `tilttek/looking-for-group` · 🧪 in incubation — Find players by system, by place or online
+- `tilttek/game-night` · 🧪 in incubation — Game nights for a club or a shop: tables, games, sign-ups
+- `tilttek/tournament` · 🧪 in incubation — Swiss or elimination tournaments and their pairings
+- `tilttek/math-trade` · 🧪 in incubation — Chain game trades: the longest chain computed, everyone gives one and gets one
+- `tilttek/game-shelf` · 🧪 in incubation — A member's game shelf and prioritized wishlist
+- `tilttek/play-log` · 🧪 in incubation — A log of games played, players anonymous by default
+- `tilttek/rating` · 🧪 in incubation — Per-game Elo rating, private by default, with an unrated friendly mode
 
 </details>
 
 <details>
-<summary><b>Live-action role-play</b> — 🗓️ 8</summary>
+<summary><b>Games &amp; contests</b> — 🧪 13</summary>
 
-- `tilttek/larp-characters` · 🗓️ planned — LARP characters and their sheets
-- `tilttek/larp-checkin` · 🗓️ planned — Player check-in on site
-- `tilttek/larp-economy` · 🗓️ planned — A LARP's currency and trade
-- `tilttek/larp-crafting` · 🗓️ planned — LARP crafting
-- `tilttek/larp-spells` · 🗓️ planned — LARP spells
-- `tilttek/larp-timeline` · 🗓️ planned — The timeline of a LARP's world and events
-- `tilttek/larp-rules-quiz` · 🗓️ planned — A rules quiz before the first game
-- `tilttek/larp-plots` · 🗓️ planned — Writing a LARP's plots, linked to its characters
+- `tilttek/quiz` · 🧪 in incubation — Quizzes: questions, timer, score
+- `tilttek/bingo` · 🧪 in incubation — Bingo cards for a convention or a session, ticked by events
+- `tilttek/mini-games` · 🧪 in incubation — Small games played on the site
+- `tilttek/tavern-games` · 🧪 in incubation — Tavern games from a game world, playable online
+- `tilttek/escape-room` · 🧪 in incubation — Escape rooms: chained puzzles, hints, timer
+- `tilttek/murder-mystery` · 🧪 in incubation — Murder-mystery nights: roles, clues, reveal
+- `tilttek/cosplay-contest` · 🧪 in incubation — Cosplay contests: entries, walk-on, jury and public vote
+- `tilttek/cosplay-progress` · 🧪 in incubation — A costume's build log, step by step
+- `tilttek/score-sheets` · 🧪 in incubation — Score sheets
+- `tilttek/deck-builder` · 🧪 in incubation — Build a card deck to a game's rules
+- `tilttek/game-engine` · 🧪 in incubation — A generic state machine for online tabletop games, with Mercure and no game rules
+- `tilttek/turn-clock` · 🧪 in incubation — Turn clocks: initial time, time per move, moves per day
+- `tilttek/jam` · 🧪 in incubation — Themed creation jams with deadlines: entries, votes and jury
+
+</details>
+
+<details>
+<summary><b>Hobbies</b> — 🧪 6</summary>
+
+- `tilttek/wargame-army` · 🧪 in incubation — Army lists for miniature games
+- `tilttek/minis-tracker` · 🧪 in incubation — Track miniatures bought, built and painted
+- `tilttek/paint-recipes` · 🧪 in incubation — Miniature paint recipes: colours, steps, photos
+- `tilttek/reading-quests` · 🧪 in incubation — Reading quests for a book
+- `tilttek/writing-goals` · 🧪 in incubation — An author's writing goals
+- `tilttek/geocache-quests` · 🧪 in incubation — Geocache quests
+
+</details>
+
+<details>
+<summary><b>Live-action role-play</b> — 🧪 8</summary>
+
+- `tilttek/larp-characters` · 🧪 in incubation — LARP characters and their sheets
+- `tilttek/larp-checkin` · 🧪 in incubation — Player check-in on site
+- `tilttek/larp-economy` · 🧪 in incubation — A LARP's currency and trade
+- `tilttek/larp-crafting` · 🧪 in incubation — LARP crafting
+- `tilttek/larp-spells` · 🧪 in incubation — LARP spells
+- `tilttek/larp-timeline` · 🧪 in incubation — The timeline of a LARP's world and events
+- `tilttek/larp-rules-quiz` · 🧪 in incubation — A rules quiz before the first game
+- `tilttek/larp-plots` · 🧪 in incubation — Writing a LARP's plots, linked to its characters
 
 </details>
 
@@ -331,7 +330,7 @@ Tilttek suit toutes les règles des paquets PHIL :
 - **Des barrières de qualité strictes.** PHPStan au niveau maximal avec les règles strictes, PHP-CS-Fixer aux règles
   de Symfony et types stricts, Rector, Deptrac, Arkitect, PHPUnit qui échoue à la moindre dépréciation, et chaque
   paquet testé seul.
-- **Un score de mutation de 100 %.** Infection doit tuer chaque mutant ; la barre ne baisse jamais.
+- **Un score de mutation parfait.** Infection doit tuer chaque mutant ; la barre ne baisse jamais.
 - **Accessible d'office.** Clavier et lecteurs d'écran, mouvement réduit, contraste — et des dés dont une face n'est
   jamais dite par la seule couleur.
 - **Toutes les langues, pas seulement les nôtres.** Le générateur parle déjà français, anglais, espagnol, allemand,
@@ -366,19 +365,18 @@ probabilités, et les classements se font sur accord.
 
 | Dépôt | Ce qu'il contient | État |
 |---|---|---|
-| [ux-kit](https://github.com/TiltTek/ux-kit) | Des recettes de ludification pour le Toolkit de Symfony UX — vitrine des réussites, jauge de niveau, flamme de série, tableau des quêtes, classement, lanceur de dés, classeur de collection — bâties sur les composants compatibles Shadcn et habillées par phil-ux. `php bin/console ux:install <recette> --kit=github.com/TiltTek/ux-kit` | 🗓️ prévu |
-| [ux-kit-shadcn](https://github.com/TiltTek/ux-kit-shadcn) | Les mêmes recettes en Tailwind, à la façon de Shadcn | 🗓️ prévu |
+| [ux-kit](https://github.com/TiltTek/ux-kit) | Des recettes de ludification pour le Toolkit de Symfony UX — vitrine des réussites, jauge de niveau, flamme de série, tableau des quêtes, classement, lanceur de dés, classeur de collection — bâties sur les composants compatibles Shadcn et habillées par phil-ux. `php bin/console ux:install <recette> --kit=github.com/TiltTek/ux-kit` | 🧪 en incubation |
+| [ux-kit-shadcn](https://github.com/TiltTek/ux-kit-shadcn) | Les mêmes recettes en Tailwind, à la façon de Shadcn | 🧪 en incubation |
 
 ### Les paquets
 
-✅ **publié** · 🧪 **écrit, en incubation** (avancement approximatif) · 🗓️ **prévu**
+✅ **publié** · 🧪 **en incubation**
 
-**129 paquets :** 17 publiés, 7 en incubation, 105 prévus. Les pourcentages sont des
-estimations tirées de notre dernier rapport d'avancement (11 novembre 2026). Les paquets publiés sont développés dans
+**129 paquets :** 17 publiés, 112 en incubation. Les paquets publiés sont développés dans
 le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés chacun dans son propre dépôt en lecture seule.
 
 <details>
-<summary><b>Cœur de la ludification</b> — ✅ 13 · 🧪 3 · 🗓️ 18</summary>
+<summary><b>Cœur de la ludification</b> — ✅ 13 · 🧪 21</summary>
 
 - [`tilttek/activity`](https://github.com/TiltTek/activity) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/activity)) — L'entrée commune : l'activité d'un membre enregistrée une fois, ses totaux et ses projections rejouables
 - [`tilttek/activity-bundle`](https://github.com/TiltTek/activity-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/activity-bundle)) — L'enregistrement de l'activité dans Symfony, avec projections asynchrones facultatives
@@ -393,170 +391,170 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 - [`tilttek/collections`](https://github.com/TiltTek/collections) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/collections)) — Objets à collectionner : rareté, ensembles, doubles, objet du jour, pochettes aux probabilités publiées et vérifiables
 - [`tilttek/collections-bundle`](https://github.com/TiltTek/collections-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/collections-bundle)) — Les collections et les sets de dés dans Symfony
 - [`tilttek/exchange`](https://github.com/TiltTek/exchange) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/exchange)) — Échanger des points contre des récompenses en deux temps, et des objets entre membres
-- `tilttek/exchange-bundle` · 🧪 90 % — Boutiques de récompenses et échanges entre membres dans Symfony
-- `tilttek/leaderboards` · 🧪 85 % — Classements par mesure et période, sur accord, pseudonymes, cercles d'amis, instantanés
-- `tilttek/leaderboards-bundle` · 🧪 85 % — Les classements configurés et montrés dans Symfony
-- `tilttek/kudos` · 🗓️ prévu — Les remerciements entre membres, sans décompte public ni classement
-- `tilttek/referrals` · 🗓️ prévu — Le parrainage récompensé en points, jamais en argent
-- `tilttek/guilds` · 🗓️ prévu — Les guildes de membres et leurs objectifs communs
-- `tilttek/seasonal-events` · 🗓️ prévu — Les saisons et leurs événements : quêtes, objets et décors d'une période
-- `tilttek/check-in-rewards` · 🗓️ prévu — La récompense d'une présence, au kiosque d'une boutique ou en convention
-- `tilttek/stickers` · 🗓️ prévu — Les autocollants virtuels des profils et des messages
-- `tilttek/advent-calendar` · 🗓️ prévu — Le calendrier de l'Avent : une case par jour, une surprise par case
-- `tilttek/predictions` · 🗓️ prévu — Les prédictions misées en points seulement
-- `tilttek/raffle` · 🗓️ prévu — Les tirages au sort vérifiables, sans achat de chances
-- `tilttek/fan-awards` · 🗓️ prévu — Les prix des fans : catégories, mises en nomination, votes
-- `tilttek/geek-dates` · 🗓️ prévu — Les dates de la culture geek, en données
-- `tilttek/rpg-calendar-events` · 🗓️ prévu — Les événements du calendrier rôliste, en données
-- `tilttek/sets` · 🗓️ prévu — Le code commun des ensembles de badges et de collection, une brique neutre
-- `tilttek/celebrations` · 🗓️ prévu — La boîte des récompenses, qui reçoit les réussites de chaque paquet et montre chacune une fois
-- `tilttek/bounties` · 🗓️ prévu — Les primes ludiques prépayées en points, limitées dans le temps, jamais en argent
-- `tilttek/friend-challenges` · 🗓️ prévu — Les défis créés par les membres, entre amis aussi, avec un prix en points gardé en dépôt
-- `tilttek/gamification-insights` · 🗓️ prévu — Un tableau de bord agrégé et anonyme pour équilibrer la ludification
-- `tilttek/play-insights-bundle` · 🗓️ prévu — Les mesures de jeu partagées par les quêtes et la progression, en agrégat
+- `tilttek/exchange-bundle` · 🧪 en incubation — Boutiques de récompenses et échanges entre membres dans Symfony
+- `tilttek/leaderboards` · 🧪 en incubation — Classements par mesure et période, sur accord, pseudonymes, cercles d'amis, instantanés
+- `tilttek/leaderboards-bundle` · 🧪 en incubation — Les classements configurés et montrés dans Symfony
+- `tilttek/kudos` · 🧪 en incubation — Les remerciements entre membres, sans décompte public ni classement
+- `tilttek/referrals` · 🧪 en incubation — Le parrainage récompensé en points, jamais en argent
+- `tilttek/guilds` · 🧪 en incubation — Les guildes de membres et leurs objectifs communs
+- `tilttek/seasonal-events` · 🧪 en incubation — Les saisons et leurs événements : quêtes, objets et décors d'une période
+- `tilttek/check-in-rewards` · 🧪 en incubation — La récompense d'une présence, au kiosque d'une boutique ou en convention
+- `tilttek/stickers` · 🧪 en incubation — Les autocollants virtuels des profils et des messages
+- `tilttek/advent-calendar` · 🧪 en incubation — Le calendrier de l'Avent : une case par jour, une surprise par case
+- `tilttek/predictions` · 🧪 en incubation — Les prédictions misées en points seulement
+- `tilttek/raffle` · 🧪 en incubation — Les tirages au sort vérifiables, sans achat de chances
+- `tilttek/fan-awards` · 🧪 en incubation — Les prix des fans : catégories, mises en nomination, votes
+- `tilttek/geek-dates` · 🧪 en incubation — Les dates de la culture geek, en données
+- `tilttek/rpg-calendar-events` · 🧪 en incubation — Les événements du calendrier rôliste, en données
+- `tilttek/sets` · 🧪 en incubation — Le code commun des ensembles de badges et de collection, une brique neutre
+- `tilttek/celebrations` · 🧪 en incubation — La boîte des récompenses, qui reçoit les réussites de chaque paquet et montre chacune une fois
+- `tilttek/bounties` · 🧪 en incubation — Les primes ludiques prépayées en points, limitées dans le temps, jamais en argent
+- `tilttek/friend-challenges` · 🧪 en incubation — Les défis créés par les membres, entre amis aussi, avec un prix en points gardé en dépôt
+- `tilttek/gamification-insights` · 🧪 en incubation — Un tableau de bord agrégé et anonyme pour équilibrer la ludification
+- `tilttek/play-insights-bundle` · 🧪 en incubation — Les mesures de jeu partagées par les quêtes et la progression, en agrégat
 
 </details>
 
 <details>
-<summary><b>Dés et hasard</b> — ✅ 4 · 🧪 4 · 🗓️ 8</summary>
+<summary><b>Dés et hasard</b> — ✅ 4 · 🧪 12</summary>
 
 - [`tilttek/dice`](https://github.com/TiltTek/dice) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice)) — La notation des dés lue, validée et lancée : réserves, faces propres, lancers vérifiables et rejouables
 - [`tilttek/dice-bundle`](https://github.com/TiltTek/dice-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice-bundle)) — Les lancers de dés dans Symfony : lancers rejouables, macros, champ de formulaire et Twig
 - [`tilttek/dice-probability`](https://github.com/TiltTek/dice-probability) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice-probability)) — Les statistiques exactes des dés : distributions, au moins / au plus, moyenne, événements
 - [`tilttek/loot-tables`](https://github.com/TiltTek/loot-tables) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/loot-tables)) — Des tables de butin qui déclarent leurs dés, tirées de façon vérifiable une seule fois (nom provisoire)
-- `tilttek/generator` · 🧪 92 % — Un moteur de grammaire pour le texte au hasard, avec les grammaires française, anglaise, espagnole, allemande, italienne et portugaise
-- `tilttek/generator-bundle` · 🧪 93 % — Les générateurs dans Symfony, servis par une API
-- `tilttek/dice-probability-bundle` · 🧪 90 % — Les statistiques des dés en tableaux et graphiques en Live Component
-- `tilttek/loot-tables-bundle` · 🧪 85 % — Les tables de butin dans Symfony, avec les engagements publiés des tirages
-- `tilttek/accessible-dice` · 🗓️ prévu — Des dés lisibles sans voir les couleurs ni viser de petits boutons, annoncés aux lecteurs d'écran
-- `tilttek/dice-tower` · 🗓️ prévu — La tour de dés commune d'une table : chaque jet vu par tous, dans l'ordre
-- `tilttek/secret-rolls` · 🗓️ prévu — Les jets cachés du meneur, gardés vérifiables et révélés ensuite
-- `tilttek/dice-jail` · 🗓️ prévu — La prison des dés malchanceux, et les statistiques qui la justifient
-- `tilttek/dice-skins` · 🗓️ prévu — L'apparence des dés d'un membre
-- `tilttek/luck-tokens` · 🗓️ prévu — Les jetons de chance, d'inspiration ou de destin qu'une table distribue et dépense
-- `tilttek/card-deck` · 🗓️ prévu — Des paquets de cartes mélangés, tirés et défaussés
-- `tilttek/heraldry` · 🗓️ prévu — Les blasons générés et décrits
+- `tilttek/generator` · 🧪 en incubation — Un moteur de grammaire pour le texte au hasard, avec les grammaires française, anglaise, espagnole, allemande, italienne et portugaise
+- `tilttek/generator-bundle` · 🧪 en incubation — Les générateurs dans Symfony, servis par une API
+- `tilttek/dice-probability-bundle` · 🧪 en incubation — Les statistiques des dés en tableaux et graphiques en Live Component
+- `tilttek/loot-tables-bundle` · 🧪 en incubation — Les tables de butin dans Symfony, avec les engagements publiés des tirages
+- `tilttek/accessible-dice` · 🧪 en incubation — Des dés lisibles sans voir les couleurs ni viser de petits boutons, annoncés aux lecteurs d'écran
+- `tilttek/dice-tower` · 🧪 en incubation — La tour de dés commune d'une table : chaque jet vu par tous, dans l'ordre
+- `tilttek/secret-rolls` · 🧪 en incubation — Les jets cachés du meneur, gardés vérifiables et révélés ensuite
+- `tilttek/dice-jail` · 🧪 en incubation — La prison des dés malchanceux, et les statistiques qui la justifient
+- `tilttek/dice-skins` · 🧪 en incubation — L'apparence des dés d'un membre
+- `tilttek/luck-tokens` · 🧪 en incubation — Les jetons de chance, d'inspiration ou de destin qu'une table distribue et dépense
+- `tilttek/card-deck` · 🧪 en incubation — Des paquets de cartes mélangés, tirés et défaussés
+- `tilttek/heraldry` · 🧪 en incubation — Les blasons générés et décrits
 
 </details>
 
 <details>
-<summary><b>À la table</b> — 🗓️ 18</summary>
+<summary><b>À la table</b> — 🧪 18</summary>
 
-- `tilttek/table-safety` · 🗓️ prévu — Outils de sécurité : lignes et voiles, liste de consentement, séance zéro, carte X, anonymes par défaut
-- `tilttek/table-safety-bundle` · 🗓️ prévu — Les outils de sécurité dans Symfony, avec modèles de séance zéro
-- `tilttek/table-presence` · 🗓️ prévu — Qui est à la table en ligne, absent ou en pause
-- `tilttek/table-rules` · 🗓️ prévu — Les règles maison écrites et acceptées, et les variantes qu'une table choisit
-- `tilttek/spotlight` · 🗓️ prévu — Partager le temps de jeu et voir qui attend son tour
-- `tilttek/initiative-cards` · 🗓️ prévu — Le suivi d'initiative en cartes
-- `tilttek/gm-screen` · 🗓️ prévu — L'écran du meneur, à l'écran ou imprimé
-- `tilttek/session-prep` · 🗓️ prévu — La préparation d'une séance : scènes, PNJ, notes
-- `tilttek/gm-tips` · 🗓️ prévu — Les conseils au meneur, selon la situation
-- `tilttek/player-knowledge` · 🗓️ prévu — Ce que savent les joueurs, séparé de ce que savent leurs personnages
-- `tilttek/handouts` · 🗓️ prévu — Les documents remis aux joueurs pendant la partie
-- `tilttek/soundboard` · 🗓️ prévu — Les ambiances et les effets sonores d'une séance
-- `tilttek/rpg-systems` · 🗓️ prévu — Le référentiel des systèmes de jeu : caractéristiques, dés, termes
-- `tilttek/reference-tables` · 🗓️ prévu — Les tables de référence d'un système
-- `tilttek/rules-lookup` · 🗓️ prévu — La recherche dans les règles d'un système, SRD compris
-- `tilttek/flashcards` · 🗓️ prévu — Apprendre les règles d'un système par cartes à répétition espacée
-- `tilttek/encounter` · 🗓️ prévu — Une rencontre composée et équilibrée selon le système
-- `tilttek/grid` · 🗓️ prévu — Grilles carrées, hexagonales, isométriques ou absentes, alignement et DPI ; des outils, jamais une table virtuelle
-
-</details>
-
-<details>
-<summary><b>Personnages</b> — 🗓️ 10</summary>
-
-- `tilttek/character-sheet` · 🗓️ prévu — La fiche de personnage selon le système : caractéristiques calculées, équipement
-- `tilttek/inventory` · 🗓️ prévu — L'inventaire d'un personnage et son encombrement
-- `tilttek/conditions` · 🗓️ prévu — Les états et les effets : poisons, maladies, mutations, membres perdus
-- `tilttek/party` · 🗓️ prévu — Le groupe d'une campagne, ce qu'il partage, et sa composition équilibrée
-- `tilttek/random-character` · 🗓️ prévu — Le personnage tiré au hasard, prêt à jouer
-- `tilttek/token-maker` · 🗓️ prévu — Les jetons de table virtuelle tirés d'une image
-- `tilttek/relationships` · 🗓️ prévu — Les liens entre personnages et PNJ, et leur évolution
-- `tilttek/polyglot` · 🗓️ prévu — Les langues qu'un personnage parle et lit, et ce qu'il comprend d'un texte
-- `tilttek/character-retirement` · 🗓️ prévu — La retraite ou la mort d'un personnage, et son mémorial
-- `tilttek/crafting` · 🗓️ prévu — Les recettes d'objets qui combinent ou font évoluer des objets
+- `tilttek/table-safety` · 🧪 en incubation — Outils de sécurité : lignes et voiles, liste de consentement, séance zéro, carte X, anonymes par défaut
+- `tilttek/table-safety-bundle` · 🧪 en incubation — Les outils de sécurité dans Symfony, avec modèles de séance zéro
+- `tilttek/table-presence` · 🧪 en incubation — Qui est à la table en ligne, absent ou en pause
+- `tilttek/table-rules` · 🧪 en incubation — Les règles maison écrites et acceptées, et les variantes qu'une table choisit
+- `tilttek/spotlight` · 🧪 en incubation — Partager le temps de jeu et voir qui attend son tour
+- `tilttek/initiative-cards` · 🧪 en incubation — Le suivi d'initiative en cartes
+- `tilttek/gm-screen` · 🧪 en incubation — L'écran du meneur, à l'écran ou imprimé
+- `tilttek/session-prep` · 🧪 en incubation — La préparation d'une séance : scènes, PNJ, notes
+- `tilttek/gm-tips` · 🧪 en incubation — Les conseils au meneur, selon la situation
+- `tilttek/player-knowledge` · 🧪 en incubation — Ce que savent les joueurs, séparé de ce que savent leurs personnages
+- `tilttek/handouts` · 🧪 en incubation — Les documents remis aux joueurs pendant la partie
+- `tilttek/soundboard` · 🧪 en incubation — Les ambiances et les effets sonores d'une séance
+- `tilttek/rpg-systems` · 🧪 en incubation — Le référentiel des systèmes de jeu : caractéristiques, dés, termes
+- `tilttek/reference-tables` · 🧪 en incubation — Les tables de référence d'un système
+- `tilttek/rules-lookup` · 🧪 en incubation — La recherche dans les règles d'un système, SRD compris
+- `tilttek/flashcards` · 🧪 en incubation — Apprendre les règles d'un système par cartes à répétition espacée
+- `tilttek/encounter` · 🧪 en incubation — Une rencontre composée et équilibrée selon le système
+- `tilttek/grid` · 🧪 en incubation — Grilles carrées, hexagonales, isométriques ou absentes, alignement et DPI ; des outils, jamais une table virtuelle
 
 </details>
 
 <details>
-<summary><b>Campagnes et mondes</b> — 🗓️ 16</summary>
+<summary><b>Personnages</b> — 🧪 10</summary>
 
-- `tilttek/session-scheduler` · 🗓️ prévu — Les séances d'une campagne : récurrence, absences, report
-- `tilttek/campaign-wiki` · 🗓️ prévu — Le wiki d'une campagne et les secrets du meneur
-- `tilttek/journal` · 🗓️ prévu — Un journal à genres : résumés de séance, journaux de personnage et de jeu solo
-- `tilttek/campaign-stats` · 🗓️ prévu — Les statistiques d'une campagne
-- `tilttek/factions` · 🗓️ prévu — Les factions, leur réputation et leurs horloges
-- `tilttek/downtime` · 🗓️ prévu — Les activités entre deux aventures : métier, recherche, entraînement
-- `tilttek/in-character-mail` · 🗓️ prévu — Le courrier en personnage entre les séances, lu par le meneur
-- `tilttek/legacy-campaign` · 🗓️ prévu — Les campagnes héritage et leurs changements permanents
-- `tilttek/west-marches` · 🗓️ prévu — Les campagnes ouvertes à plusieurs meneurs et à des tables changeantes
-- `tilttek/pbp` · 🗓️ prévu — La partie par messages, en fils de scène
-- `tilttek/homebrew-hub` · 🗓️ prévu — Les règles maison partagées, notées et reprises d'une table à l'autre
-- `tilttek/fantasy-calendar` · 🗓️ prévu — Les calendriers imaginaires
-- `tilttek/weather` · 🗓️ prévu — La météo du monde du jeu
-- `tilttek/travel` · 🗓️ prévu — Les voyages, leurs durées et leurs aléas
-- `tilttek/puzzle-builder` · 🗓️ prévu — Les énigmes et casse-têtes d'un scénario
-- `tilttek/player-handbook` · 🗓️ prévu — Le manuel du joueur d'une campagne
+- `tilttek/character-sheet` · 🧪 en incubation — La fiche de personnage selon le système : caractéristiques calculées, équipement
+- `tilttek/inventory` · 🧪 en incubation — L'inventaire d'un personnage et son encombrement
+- `tilttek/conditions` · 🧪 en incubation — Les états et les effets : poisons, maladies, mutations, membres perdus
+- `tilttek/party` · 🧪 en incubation — Le groupe d'une campagne, ce qu'il partage, et sa composition équilibrée
+- `tilttek/random-character` · 🧪 en incubation — Le personnage tiré au hasard, prêt à jouer
+- `tilttek/token-maker` · 🧪 en incubation — Les jetons de table virtuelle tirés d'une image
+- `tilttek/relationships` · 🧪 en incubation — Les liens entre personnages et PNJ, et leur évolution
+- `tilttek/polyglot` · 🧪 en incubation — Les langues qu'un personnage parle et lit, et ce qu'il comprend d'un texte
+- `tilttek/character-retirement` · 🧪 en incubation — La retraite ou la mort d'un personnage, et son mémorial
+- `tilttek/crafting` · 🧪 en incubation — Les recettes d'objets qui combinent ou font évoluer des objets
 
 </details>
 
 <details>
-<summary><b>Trouver des joueurs et soirées de jeux</b> — 🗓️ 8</summary>
+<summary><b>Campagnes et mondes</b> — 🧪 16</summary>
 
-- `tilttek/game-catalog` · 🗓️ prévu — Un catalogue de jeux unique que chaque site active : BoardGameGeek, RPGGeek, saisie, errata
-- `tilttek/looking-for-group` · 🗓️ prévu — Trouver des joueurs par système, par lieu ou en ligne
-- `tilttek/game-night` · 🗓️ prévu — Les soirées de jeux d'un club ou d'une boutique : tables, jeux, inscriptions
-- `tilttek/tournament` · 🗓️ prévu — Les tournois en rondes suisses ou à élimination, et leurs appariements
-- `tilttek/math-trade` · 🗓️ prévu — L'échange de jeux en chaîne : la plus longue chaîne calculée, chacun donne un jeu et en reçoit un
-- `tilttek/game-shelf` · 🗓️ prévu — L'étagère de jeux d'un membre et sa liste de souhaits priorisée
-- `tilttek/play-log` · 🗓️ prévu — Le journal des parties jouées, aux joueurs anonymes par défaut
-- `tilttek/rating` · 🗓️ prévu — Le classement Elo par jeu, privé par défaut, avec un mode amical sans cote
-
-</details>
-
-<details>
-<summary><b>Jeux et concours</b> — 🗓️ 13</summary>
-
-- `tilttek/quiz` · 🗓️ prévu — Les jeux-questionnaires : questions, minuterie, score
-- `tilttek/bingo` · 🗓️ prévu — Les cartes de bingo d'une convention ou d'une séance, cochées par les événements
-- `tilttek/mini-games` · 🗓️ prévu — Les petits jeux qui se jouent dans le site
-- `tilttek/tavern-games` · 🗓️ prévu — Les jeux de taverne d'un univers de jeu, jouables en ligne
-- `tilttek/escape-room` · 🗓️ prévu — Les jeux d'évasion : énigmes enchaînées, indices, chronomètre
-- `tilttek/murder-mystery` · 🗓️ prévu — Les soirées meurtre et mystère : rôles, indices, révélation
-- `tilttek/cosplay-contest` · 🗓️ prévu — Le concours de costumes : inscriptions, passage, jury et vote du public
-- `tilttek/cosplay-progress` · 🗓️ prévu — Le journal d'un costume en cours, étape par étape
-- `tilttek/score-sheets` · 🗓️ prévu — Les feuilles de score
-- `tilttek/deck-builder` · 🗓️ prévu — Construire un paquet de cartes selon les règles d'un jeu
-- `tilttek/game-engine` · 🗓️ prévu — Une machine à états générique pour les jeux de table en ligne, avec Mercure et sans règles de jeu
-- `tilttek/turn-clock` · 🗓️ prévu — Les horloges de tour : temps initial, temps par coup, coups par jour
-- `tilttek/jam` · 🗓️ prévu — Les concours de création à thème et à échéance : soumissions, votes et jury
+- `tilttek/session-scheduler` · 🧪 en incubation — Les séances d'une campagne : récurrence, absences, report
+- `tilttek/campaign-wiki` · 🧪 en incubation — Le wiki d'une campagne et les secrets du meneur
+- `tilttek/journal` · 🧪 en incubation — Un journal à genres : résumés de séance, journaux de personnage et de jeu solo
+- `tilttek/campaign-stats` · 🧪 en incubation — Les statistiques d'une campagne
+- `tilttek/factions` · 🧪 en incubation — Les factions, leur réputation et leurs horloges
+- `tilttek/downtime` · 🧪 en incubation — Les activités entre deux aventures : métier, recherche, entraînement
+- `tilttek/in-character-mail` · 🧪 en incubation — Le courrier en personnage entre les séances, lu par le meneur
+- `tilttek/legacy-campaign` · 🧪 en incubation — Les campagnes héritage et leurs changements permanents
+- `tilttek/west-marches` · 🧪 en incubation — Les campagnes ouvertes à plusieurs meneurs et à des tables changeantes
+- `tilttek/pbp` · 🧪 en incubation — La partie par messages, en fils de scène
+- `tilttek/homebrew-hub` · 🧪 en incubation — Les règles maison partagées, notées et reprises d'une table à l'autre
+- `tilttek/fantasy-calendar` · 🧪 en incubation — Les calendriers imaginaires
+- `tilttek/weather` · 🧪 en incubation — La météo du monde du jeu
+- `tilttek/travel` · 🧪 en incubation — Les voyages, leurs durées et leurs aléas
+- `tilttek/puzzle-builder` · 🧪 en incubation — Les énigmes et casse-têtes d'un scénario
+- `tilttek/player-handbook` · 🧪 en incubation — Le manuel du joueur d'une campagne
 
 </details>
 
 <details>
-<summary><b>Loisirs</b> — 🗓️ 6</summary>
+<summary><b>Trouver des joueurs et soirées de jeux</b> — 🧪 8</summary>
 
-- `tilttek/wargame-army` · 🗓️ prévu — Les listes d'armée d'un jeu de figurines
-- `tilttek/minis-tracker` · 🗓️ prévu — Le suivi des figurines achetées, montées et peintes
-- `tilttek/paint-recipes` · 🗓️ prévu — Les recettes de peinture des figurines : couleurs, étapes, photos
-- `tilttek/reading-quests` · 🗓️ prévu — Les quêtes de lecture d'un livre
-- `tilttek/writing-goals` · 🗓️ prévu — Les objectifs d'écriture d'un auteur
-- `tilttek/geocache-quests` · 🗓️ prévu — Les quêtes de géocache
+- `tilttek/game-catalog` · 🧪 en incubation — Un catalogue de jeux unique que chaque site active : BoardGameGeek, RPGGeek, saisie, errata
+- `tilttek/looking-for-group` · 🧪 en incubation — Trouver des joueurs par système, par lieu ou en ligne
+- `tilttek/game-night` · 🧪 en incubation — Les soirées de jeux d'un club ou d'une boutique : tables, jeux, inscriptions
+- `tilttek/tournament` · 🧪 en incubation — Les tournois en rondes suisses ou à élimination, et leurs appariements
+- `tilttek/math-trade` · 🧪 en incubation — L'échange de jeux en chaîne : la plus longue chaîne calculée, chacun donne un jeu et en reçoit un
+- `tilttek/game-shelf` · 🧪 en incubation — L'étagère de jeux d'un membre et sa liste de souhaits priorisée
+- `tilttek/play-log` · 🧪 en incubation — Le journal des parties jouées, aux joueurs anonymes par défaut
+- `tilttek/rating` · 🧪 en incubation — Le classement Elo par jeu, privé par défaut, avec un mode amical sans cote
 
 </details>
 
 <details>
-<summary><b>Grandeur nature</b> — 🗓️ 8</summary>
+<summary><b>Jeux et concours</b> — 🧪 13</summary>
 
-- `tilttek/larp-characters` · 🗓️ prévu — Les personnages d'un grandeur nature et leurs fiches
-- `tilttek/larp-checkin` · 🗓️ prévu — L'accueil des joueurs sur le terrain
-- `tilttek/larp-economy` · 🗓️ prévu — La monnaie et les échanges d'un grandeur nature
-- `tilttek/larp-crafting` · 🗓️ prévu — L'artisanat d'un grandeur nature
-- `tilttek/larp-spells` · 🗓️ prévu — Les sorts d'un grandeur nature
-- `tilttek/larp-timeline` · 🗓️ prévu — La ligne du temps de l'univers et des événements d'un grandeur nature
-- `tilttek/larp-rules-quiz` · 🗓️ prévu — Le questionnaire sur les règles avant le premier jeu
-- `tilttek/larp-plots` · 🗓️ prévu — L'écriture des intrigues d'un grandeur nature, liées à ses personnages
+- `tilttek/quiz` · 🧪 en incubation — Les jeux-questionnaires : questions, minuterie, score
+- `tilttek/bingo` · 🧪 en incubation — Les cartes de bingo d'une convention ou d'une séance, cochées par les événements
+- `tilttek/mini-games` · 🧪 en incubation — Les petits jeux qui se jouent dans le site
+- `tilttek/tavern-games` · 🧪 en incubation — Les jeux de taverne d'un univers de jeu, jouables en ligne
+- `tilttek/escape-room` · 🧪 en incubation — Les jeux d'évasion : énigmes enchaînées, indices, chronomètre
+- `tilttek/murder-mystery` · 🧪 en incubation — Les soirées meurtre et mystère : rôles, indices, révélation
+- `tilttek/cosplay-contest` · 🧪 en incubation — Le concours de costumes : inscriptions, passage, jury et vote du public
+- `tilttek/cosplay-progress` · 🧪 en incubation — Le journal d'un costume en cours, étape par étape
+- `tilttek/score-sheets` · 🧪 en incubation — Les feuilles de score
+- `tilttek/deck-builder` · 🧪 en incubation — Construire un paquet de cartes selon les règles d'un jeu
+- `tilttek/game-engine` · 🧪 en incubation — Une machine à états générique pour les jeux de table en ligne, avec Mercure et sans règles de jeu
+- `tilttek/turn-clock` · 🧪 en incubation — Les horloges de tour : temps initial, temps par coup, coups par jour
+- `tilttek/jam` · 🧪 en incubation — Les concours de création à thème et à échéance : soumissions, votes et jury
+
+</details>
+
+<details>
+<summary><b>Loisirs</b> — 🧪 6</summary>
+
+- `tilttek/wargame-army` · 🧪 en incubation — Les listes d'armée d'un jeu de figurines
+- `tilttek/minis-tracker` · 🧪 en incubation — Le suivi des figurines achetées, montées et peintes
+- `tilttek/paint-recipes` · 🧪 en incubation — Les recettes de peinture des figurines : couleurs, étapes, photos
+- `tilttek/reading-quests` · 🧪 en incubation — Les quêtes de lecture d'un livre
+- `tilttek/writing-goals` · 🧪 en incubation — Les objectifs d'écriture d'un auteur
+- `tilttek/geocache-quests` · 🧪 en incubation — Les quêtes de géocache
+
+</details>
+
+<details>
+<summary><b>Grandeur nature</b> — 🧪 8</summary>
+
+- `tilttek/larp-characters` · 🧪 en incubation — Les personnages d'un grandeur nature et leurs fiches
+- `tilttek/larp-checkin` · 🧪 en incubation — L'accueil des joueurs sur le terrain
+- `tilttek/larp-economy` · 🧪 en incubation — La monnaie et les échanges d'un grandeur nature
+- `tilttek/larp-crafting` · 🧪 en incubation — L'artisanat d'un grandeur nature
+- `tilttek/larp-spells` · 🧪 en incubation — Les sorts d'un grandeur nature
+- `tilttek/larp-timeline` · 🧪 en incubation — La ligne du temps de l'univers et des événements d'un grandeur nature
+- `tilttek/larp-rules-quiz` · 🧪 en incubation — Le questionnaire sur les règles avant le premier jeu
+- `tilttek/larp-plots` · 🧪 en incubation — L'écriture des intrigues d'un grandeur nature, liées à ses personnages
 
 </details>
 
