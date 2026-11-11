@@ -91,12 +91,12 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 
 ✅ **released** · 🧪 **written, in incubation** (approximate completion) · 🗓️ **planned**
 
-**114 packages:** 14 released, 10 in incubation, 90 planned. Percentages are estimates from our
+**114 packages:** 17 released, 7 in incubation, 90 planned. Percentages are estimates from our
 latest status report (8 November 2026). The released packages are developed in the public monorepo
 [`tilttek`](https://github.com/TiltTek/tilttek), each split into its own read-only repository.
 
 <details>
-<summary><b>Gamification core</b> — ✅ 11 · 🧪 5 · 🗓️ 12</summary>
+<summary><b>Gamification core</b> — ✅ 13 · 🧪 3 · 🗓️ 12</summary>
 
 - [`tilttek/activity`](https://github.com/TiltTek/activity) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/activity)) — The common entry: member activity recorded once, its totals and replayable projections
 - [`tilttek/activity-bundle`](https://github.com/TiltTek/activity-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/activity-bundle)) — Activity recording in Symfony, with optional asynchronous projections
@@ -109,8 +109,8 @@ latest status report (8 November 2026). The released packages are developed in t
 - [`tilttek/quests`](https://github.com/TiltTek/quests) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/quests)) — Quests and challenges in steps: personal, community, team and duels
 - [`tilttek/quests-bundle`](https://github.com/TiltTek/quests-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/quests-bundle)) — Quests in Symfony, with seasonal dates computed
 - [`tilttek/collections`](https://github.com/TiltTek/collections) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/collections)) — Collectibles: rarity, sets, duplicates, item of the day, packs with published, verifiable odds
-- `tilttek/collections-bundle` · 🧪 90% — Collections and dice sets in Symfony
-- `tilttek/exchange` · 🧪 85% — Trade points for rewards in two steps, and swap collectibles between members
+- [`tilttek/collections-bundle`](https://github.com/TiltTek/collections-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/collections-bundle)) — Collections and dice sets in Symfony
+- [`tilttek/exchange`](https://github.com/TiltTek/exchange) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/exchange)) — Trade points for rewards in two steps, and swap collectibles between members
 - `tilttek/exchange-bundle` · 🧪 90% — Reward shops and member trades in Symfony
 - `tilttek/leaderboards` · 🧪 85% — Leaderboards by measure and period, opt-in, pseudonyms, friend circles, snapshots
 - `tilttek/leaderboards-bundle` · 🧪 85% — Leaderboards configured and shown in Symfony
@@ -130,12 +130,12 @@ latest status report (8 November 2026). The released packages are developed in t
 </details>
 
 <details>
-<summary><b>Dice &amp; randomness</b> — ✅ 3 · 🧪 5 · 🗓️ 8</summary>
+<summary><b>Dice &amp; randomness</b> — ✅ 4 · 🧪 4 · 🗓️ 8</summary>
 
 - [`tilttek/dice`](https://github.com/TiltTek/dice) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice)) — Dice notation parsed, validated and rolled: pools, custom faces, verifiable and replayable rolls
+- [`tilttek/dice-bundle`](https://github.com/TiltTek/dice-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice-bundle)) — Dice rolls in Symfony: replayable rolls, macros, a form field and Twig
 - [`tilttek/dice-probability`](https://github.com/TiltTek/dice-probability) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice-probability)) — Exact dice statistics: distributions, at least / at most, mean, events
 - [`tilttek/loot-tables`](https://github.com/TiltTek/loot-tables) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/loot-tables)) — Loot tables that declare their dice, drawn verifiably once (provisional name)
-- `tilttek/dice-bundle` · 🧪 85% — Dice rolls in Symfony, Twig and the API
 - `tilttek/generator` · 🧪 85% — A grammar engine for random text, with French, English, Spanish, German, Italian and Portuguese grammars
 - `tilttek/generator-bundle` · 🧪 90% — Generators in Symfony, served by an API
 - `tilttek/dice-probability-bundle` · 🧪 90% — Dice statistics as tables and charts in Live Components
@@ -358,12 +358,12 @@ probabilités, et les classements se font sur accord.
 
 ✅ **publié** · 🧪 **écrit, en incubation** (avancement approximatif) · 🗓️ **prévu**
 
-**114 paquets :** 14 publiés, 10 en incubation, 90 prévus. Les pourcentages sont des
+**114 paquets :** 17 publiés, 7 en incubation, 90 prévus. Les pourcentages sont des
 estimations tirées de notre dernier rapport d'avancement (8 novembre 2026). Les paquets publiés sont développés dans
 le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés chacun dans son propre dépôt en lecture seule.
 
 <details>
-<summary><b>Cœur de la ludification</b> — ✅ 11 · 🧪 5 · 🗓️ 12</summary>
+<summary><b>Cœur de la ludification</b> — ✅ 13 · 🧪 3 · 🗓️ 12</summary>
 
 - [`tilttek/activity`](https://github.com/TiltTek/activity) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/activity)) — L'entrée commune : l'activité d'un membre enregistrée une fois, ses totaux et ses projections rejouables
 - [`tilttek/activity-bundle`](https://github.com/TiltTek/activity-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/activity-bundle)) — L'enregistrement de l'activité dans Symfony, avec projections asynchrones facultatives
@@ -376,8 +376,8 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 - [`tilttek/quests`](https://github.com/TiltTek/quests) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/quests)) — Quêtes et défis à étapes : personnels, communautaires, d'équipe et duels
 - [`tilttek/quests-bundle`](https://github.com/TiltTek/quests-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/quests-bundle)) — Les quêtes dans Symfony, aux dates saisonnières calculées
 - [`tilttek/collections`](https://github.com/TiltTek/collections) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/collections)) — Objets à collectionner : rareté, ensembles, doubles, objet du jour, pochettes aux probabilités publiées et vérifiables
-- `tilttek/collections-bundle` · 🧪 90 % — Les collections et les sets de dés dans Symfony
-- `tilttek/exchange` · 🧪 85 % — Échanger des points contre des récompenses en deux temps, et des objets entre membres
+- [`tilttek/collections-bundle`](https://github.com/TiltTek/collections-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/collections-bundle)) — Les collections et les sets de dés dans Symfony
+- [`tilttek/exchange`](https://github.com/TiltTek/exchange) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/exchange)) — Échanger des points contre des récompenses en deux temps, et des objets entre membres
 - `tilttek/exchange-bundle` · 🧪 90 % — Boutiques de récompenses et échanges entre membres dans Symfony
 - `tilttek/leaderboards` · 🧪 85 % — Classements par mesure et période, sur accord, pseudonymes, cercles d'amis, instantanés
 - `tilttek/leaderboards-bundle` · 🧪 85 % — Les classements configurés et montrés dans Symfony
@@ -397,12 +397,12 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 </details>
 
 <details>
-<summary><b>Dés et hasard</b> — ✅ 3 · 🧪 5 · 🗓️ 8</summary>
+<summary><b>Dés et hasard</b> — ✅ 4 · 🧪 4 · 🗓️ 8</summary>
 
 - [`tilttek/dice`](https://github.com/TiltTek/dice) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice)) — La notation des dés lue, validée et lancée : réserves, faces propres, lancers vérifiables et rejouables
+- [`tilttek/dice-bundle`](https://github.com/TiltTek/dice-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice-bundle)) — Les lancers de dés dans Symfony : lancers rejouables, macros, champ de formulaire et Twig
 - [`tilttek/dice-probability`](https://github.com/TiltTek/dice-probability) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice-probability)) — Les statistiques exactes des dés : distributions, au moins / au plus, moyenne, événements
 - [`tilttek/loot-tables`](https://github.com/TiltTek/loot-tables) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/loot-tables)) — Des tables de butin qui déclarent leurs dés, tirées de façon vérifiable une seule fois (nom provisoire)
-- `tilttek/dice-bundle` · 🧪 85 % — Les lancers de dés dans Symfony, Twig et l'API
 - `tilttek/generator` · 🧪 85 % — Un moteur de grammaire pour le texte au hasard, avec les grammaires française, anglaise, espagnole, allemande, italienne et portugaise
 - `tilttek/generator-bundle` · 🧪 90 % — Les générateurs dans Symfony, servis par une API
 - `tilttek/dice-probability-bundle` · 🧪 90 % — Les statistiques des dés en tableaux et graphiques en Live Component
