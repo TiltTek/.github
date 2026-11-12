@@ -91,7 +91,7 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 
 ✅ **released** · 🧪 **in incubation**
 
-**129 packages:** 21 released, 108 in incubation. The released packages are developed in the public monorepo
+**129 packages:** 24 released, 105 in incubation. The released packages are developed in the public monorepo
 [`tilttek`](https://github.com/TiltTek/tilttek), each split into its own read-only repository.
 
 <details>
@@ -135,15 +135,15 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 </details>
 
 <details>
-<summary><b>Dice &amp; randomness</b> — ✅ 5 · 🧪 11</summary>
+<summary><b>Dice &amp; randomness</b> — ✅ 7 · 🧪 9</summary>
 
 - [`tilttek/dice`](https://github.com/TiltTek/dice) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice)) — Dice notation parsed, validated and rolled: pools, custom faces, verifiable and replayable rolls
 - [`tilttek/dice-bundle`](https://github.com/TiltTek/dice-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice-bundle)) — Dice rolls in Symfony: replayable rolls, macros, a form field and Twig
 - [`tilttek/dice-probability`](https://github.com/TiltTek/dice-probability) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice-probability)) — Exact dice statistics: distributions, at least / at most, mean, events
 - [`tilttek/loot-tables`](https://github.com/TiltTek/loot-tables) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/loot-tables)) — Loot tables that declare their dice, drawn verifiably once (provisional name)
 - [`tilttek/accessible-dice`](https://github.com/TiltTek/accessible-dice) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/accessible-dice)) — Dice read without seeing colours or aiming at small buttons, announced to screen readers
-- `tilttek/generator` · 🧪 in incubation — A grammar engine for random text, with French, English, Spanish, German, Italian and Portuguese grammars
-- `tilttek/generator-bundle` · 🧪 in incubation — Generators in Symfony, served by an API
+- [`tilttek/generator`](https://github.com/TiltTek/generator) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/generator)) — Random generators written as data: weighted lists, Markov names, sandboxed Twig templates, grammar in six languages, maps, tables with a memory
+- [`tilttek/generator-bundle`](https://github.com/TiltTek/generator-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/generator-bundle)) — Generators in Symfony: commands, Twig, a Stimulus controller and a rate-limited draw API
 - `tilttek/dice-probability-bundle` · 🧪 in incubation — Dice statistics as tables and charts in Live Components
 - `tilttek/loot-tables-bundle` · 🧪 in incubation — Loot tables in Symfony, with published commitments to the draws
 - `tilttek/dice-tower` · 🧪 in incubation — A table's shared dice tower: every roll seen by all, in order
@@ -197,8 +197,9 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 </details>
 
 <details>
-<summary><b>Campaigns &amp; worlds</b> — 🧪 16</summary>
+<summary><b>Campaigns &amp; worlds</b> — ✅ 1 · 🧪 15</summary>
 
+- [`tilttek/weather`](https://github.com/TiltTek/weather) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/weather)) — In-world weather: seasons and climate zones, conditions that follow the day before, reproducible from a seed
 - `tilttek/session-scheduler` · 🧪 in incubation — Campaign sessions: recurrence, absences, rescheduling
 - `tilttek/campaign-wiki` · 🧪 in incubation — A campaign wiki and the GM's secrets
 - `tilttek/journal` · 🧪 in incubation — Journals of many kinds: session recaps, character and solo journals
@@ -211,7 +212,6 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 - `tilttek/pbp` · 🧪 in incubation — Play-by-post, in scene threads
 - `tilttek/homebrew-hub` · 🧪 in incubation — House rules shared, rated and reused from table to table
 - `tilttek/fantasy-calendar` · 🧪 in incubation — Fantasy calendars
-- `tilttek/weather` · 🧪 in incubation — In-world weather
 - `tilttek/travel` · 🧪 in incubation — Journeys, their duration and their hazards
 - `tilttek/puzzle-builder` · 🧪 in incubation — Riddles and puzzles for a scenario
 - `tilttek/player-handbook` · 🧪 in incubation — A campaign's player handbook
@@ -373,7 +373,7 @@ probabilités, et les classements se font sur accord.
 
 ✅ **publié** · 🧪 **en incubation**
 
-**129 paquets :** 21 publiés, 108 en incubation. Les paquets publiés sont développés dans
+**129 paquets :** 24 publiés, 105 en incubation. Les paquets publiés sont développés dans
 le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés chacun dans son propre dépôt en lecture seule.
 
 <details>
@@ -417,15 +417,15 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 </details>
 
 <details>
-<summary><b>Dés et hasard</b> — ✅ 5 · 🧪 11</summary>
+<summary><b>Dés et hasard</b> — ✅ 7 · 🧪 9</summary>
 
 - [`tilttek/dice`](https://github.com/TiltTek/dice) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice)) — La notation des dés lue, validée et lancée : réserves, faces propres, lancers vérifiables et rejouables
 - [`tilttek/dice-bundle`](https://github.com/TiltTek/dice-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice-bundle)) — Les lancers de dés dans Symfony : lancers rejouables, macros, champ de formulaire et Twig
 - [`tilttek/dice-probability`](https://github.com/TiltTek/dice-probability) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice-probability)) — Les statistiques exactes des dés : distributions, au moins / au plus, moyenne, événements
 - [`tilttek/loot-tables`](https://github.com/TiltTek/loot-tables) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/loot-tables)) — Des tables de butin qui déclarent leurs dés, tirées de façon vérifiable une seule fois (nom provisoire)
 - [`tilttek/accessible-dice`](https://github.com/TiltTek/accessible-dice) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/accessible-dice)) — Des dés lisibles sans voir les couleurs ni viser de petits boutons, annoncés aux lecteurs d'écran
-- `tilttek/generator` · 🧪 en incubation — Un moteur de grammaire pour le texte au hasard, avec les grammaires française, anglaise, espagnole, allemande, italienne et portugaise
-- `tilttek/generator-bundle` · 🧪 en incubation — Les générateurs dans Symfony, servis par une API
+- [`tilttek/generator`](https://github.com/TiltTek/generator) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/generator)) — Des générateurs aléatoires écrits comme des données : listes pondérées, noms de Markov, gabarits Twig en bac à sable, grammaire en six langues, cartes, tables à mémoire
+- [`tilttek/generator-bundle`](https://github.com/TiltTek/generator-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/generator-bundle)) — Les générateurs dans Symfony : commandes, Twig, contrôleur Stimulus et API de tirage sous limite de débit
 - `tilttek/dice-probability-bundle` · 🧪 en incubation — Les statistiques des dés en tableaux et graphiques en Live Component
 - `tilttek/loot-tables-bundle` · 🧪 en incubation — Les tables de butin dans Symfony, avec les engagements publiés des tirages
 - `tilttek/dice-tower` · 🧪 en incubation — La tour de dés commune d'une table : chaque jet vu par tous, dans l'ordre
@@ -479,8 +479,9 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 </details>
 
 <details>
-<summary><b>Campagnes et mondes</b> — 🧪 16</summary>
+<summary><b>Campagnes et mondes</b> — ✅ 1 · 🧪 15</summary>
 
+- [`tilttek/weather`](https://github.com/TiltTek/weather) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/weather)) — La météo du monde du jeu : saisons et zones climatiques, conditions qui suivent la veille, reproductible à partir d'une graine
 - `tilttek/session-scheduler` · 🧪 en incubation — Les séances d'une campagne : récurrence, absences, report
 - `tilttek/campaign-wiki` · 🧪 en incubation — Le wiki d'une campagne et les secrets du meneur
 - `tilttek/journal` · 🧪 en incubation — Un journal à genres : résumés de séance, journaux de personnage et de jeu solo
@@ -493,7 +494,6 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 - `tilttek/pbp` · 🧪 en incubation — La partie par messages, en fils de scène
 - `tilttek/homebrew-hub` · 🧪 en incubation — Les règles maison partagées, notées et reprises d'une table à l'autre
 - `tilttek/fantasy-calendar` · 🧪 en incubation — Les calendriers imaginaires
-- `tilttek/weather` · 🧪 en incubation — La météo du monde du jeu
 - `tilttek/travel` · 🧪 en incubation — Les voyages, leurs durées et leurs aléas
 - `tilttek/puzzle-builder` · 🧪 en incubation — Les énigmes et casse-têtes d'un scénario
 - `tilttek/player-handbook` · 🧪 en incubation — Le manuel du joueur d'une campagne
