@@ -46,8 +46,8 @@ Tilttek follows every rule of the PHIL packages:
 - **MIT, all of it.**
 - **A modern floor:** PHP 8.5+ and Symfony 8.2+.
 - **The next versions, early.** The next PHP and Symfony enter the test matrix at their first release candidate
-  (today: PHP 8.6); a deprecation on the next PHP fails the build. The floor moves up at the next version's x.y.3,
-  always in a new version of our packages.
+  (today: PHP 8.6); a deprecation on the next PHP fails the build. The floor moves up at the next version's x.y.1 for
+  a Symfony minor, x.0.3 for a Symfony major and x.y.3 for PHP, always in a new version of our packages.
 - **Strict quality gates.** PHPStan at its maximum level with strict rules, PHP-CS-Fixer with the Symfony rules and
   strict types, Rector, Deptrac, Arkitect, PHPUnit failing on any deprecation, and every package tested on its own.
 - **A perfect mutation score.** Infection must kill every mutant; the bar is never lowered.
@@ -326,7 +326,8 @@ Tilttek suit toutes les règles des paquets PHIL :
 - **Un plancher moderne :** PHP 8.5+ et Symfony 8.2+.
 - **Les versions suivantes, tôt.** Le PHP et le Symfony suivants entrent dans la matrice de tests dès leur première
   version candidate (aujourd'hui : PHP 8.6) ; une dépréciation du PHP suivant fait échouer les tests. Le plancher
-  monte au x.y.3 de la version suivante, toujours dans une nouvelle version de nos paquets.
+  monte au x.y.1 d’une mineure de Symfony, au x.0.3 d’une majeure de Symfony et au x.y.3 de PHP, toujours dans une
+  nouvelle version de nos paquets.
 - **Des barrières de qualité strictes.** PHPStan au niveau maximal avec les règles strictes, PHP-CS-Fixer aux règles
   de Symfony et types stricts, Rector, Deptrac, Arkitect, PHPUnit qui échoue à la moindre dépréciation, et chaque
   paquet testé seul.
