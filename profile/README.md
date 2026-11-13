@@ -91,11 +91,11 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 
 ✅ **released** · 🧪 **in incubation**
 
-**129 packages:** 24 released, 105 in incubation. The released packages are developed in the public monorepo
+**130 packages:** 36 released, 94 in incubation. The released packages are developed in the public monorepo
 [`tilttek`](https://github.com/TiltTek/tilttek), each split into its own read-only repository.
 
 <details>
-<summary><b>Gamification core</b> — ✅ 15 · 🧪 19</summary>
+<summary><b>Gamification core</b> — ✅ 18 · 🧪 16</summary>
 
 - [`tilttek/activity`](https://github.com/TiltTek/activity) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/activity)) — The common entry: member activity recorded once, its totals and replayable projections
 - [`tilttek/activity-bundle`](https://github.com/TiltTek/activity-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/activity-bundle)) — Activity recording in Symfony, with optional asynchronous projections
@@ -111,21 +111,21 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 - [`tilttek/collections-bundle`](https://github.com/TiltTek/collections-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/collections-bundle)) — Collections and dice sets in Symfony
 - [`tilttek/exchange`](https://github.com/TiltTek/exchange) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/exchange)) — Trade points for rewards in two steps, and swap collectibles between members
 - [`tilttek/leaderboards`](https://github.com/TiltTek/leaderboards) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/leaderboards)) — Leaderboards by measure and period, opt-in, pseudonyms, friend circles, snapshots
+- [`tilttek/seasonal-events`](https://github.com/TiltTek/seasonal-events) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/seasonal-events)) — Yearly seasons by RFC 5545 rule, with announced content and multipliers
+- [`tilttek/stickers`](https://github.com/TiltTek/stickers) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/stickers)) — Stickers placed on surfaces, with limits and moderation
 - [`tilttek/advent-calendar`](https://github.com/TiltTek/advent-calendar) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/advent-calendar)) — An advent calendar: one box a day, one surprise a box
+- [`tilttek/sets`](https://github.com/TiltTek/sets) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/sets)) — Versioned sets with tiers and rewards, a neutral building block
 - `tilttek/exchange-bundle` · 🧪 in incubation — Reward shops and member trades in Symfony
 - `tilttek/leaderboards-bundle` · 🧪 in incubation — Leaderboards configured and shown in Symfony
 - `tilttek/kudos` · 🧪 in incubation — Thanks between members, with no public count or ranking
 - `tilttek/referrals` · 🧪 in incubation — Referrals rewarded in points, never in money
 - `tilttek/guilds` · 🧪 in incubation — Member guilds and their shared goals
-- `tilttek/seasonal-events` · 🧪 in incubation — Seasons and their events: quests, items and decor of a period
 - `tilttek/check-in-rewards` · 🧪 in incubation — Rewards for showing up, at a shop booth or a convention
-- `tilttek/stickers` · 🧪 in incubation — Virtual stickers for profiles and messages
 - `tilttek/predictions` · 🧪 in incubation — Predictions staked in points only
 - `tilttek/raffle` · 🧪 in incubation — Verifiable draws, with no buying of chances
 - `tilttek/fan-awards` · 🧪 in incubation — Fan awards: categories, nominations, votes
 - `tilttek/geek-dates` · 🧪 in incubation — Geek culture dates, as data
 - `tilttek/rpg-calendar-events` · 🧪 in incubation — Role-playing calendar events, as data
-- `tilttek/sets` · 🧪 in incubation — Shared code for badge sets and collection sets, a neutral building block
 - `tilttek/celebrations` · 🧪 in incubation — A rewards box that receives every package's achievements and shows each once
 - `tilttek/bounties` · 🧪 in incubation — Playful bounties prepaid in points, time-limited, never in money
 - `tilttek/friend-challenges` · 🧪 in incubation — Member-made challenges, between friends too, with a points prize held in escrow
@@ -135,31 +135,31 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 </details>
 
 <details>
-<summary><b>Dice &amp; randomness</b> — ✅ 7 · 🧪 9</summary>
+<summary><b>Dice &amp; randomness</b> — ✅ 9 · 🧪 7</summary>
 
 - [`tilttek/dice`](https://github.com/TiltTek/dice) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice)) — Dice notation parsed, validated and rolled: pools, custom faces, verifiable and replayable rolls
 - [`tilttek/dice-bundle`](https://github.com/TiltTek/dice-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice-bundle)) — Dice rolls in Symfony: replayable rolls, macros, a form field and Twig
+- [`tilttek/generator`](https://github.com/TiltTek/generator) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/generator)) — Random generators written as data: weighted lists, Markov names, sandboxed Twig templates, grammar in six languages, maps, tables with a memory
+- [`tilttek/generator-bundle`](https://github.com/TiltTek/generator-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/generator-bundle)) — Generators in Symfony: commands, Twig, a Stimulus controller and a rate-limited draw API
 - [`tilttek/dice-probability`](https://github.com/TiltTek/dice-probability) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/dice-probability)) — Exact dice statistics: distributions, at least / at most, mean, events
 - [`tilttek/loot-tables`](https://github.com/TiltTek/loot-tables) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/loot-tables)) — Loot tables that declare their dice, drawn verifiably once (provisional name)
 - [`tilttek/accessible-dice`](https://github.com/TiltTek/accessible-dice) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/accessible-dice)) — Dice read without seeing colours or aiming at small buttons, announced to screen readers
-- [`tilttek/generator`](https://github.com/TiltTek/generator) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/generator)) — Random generators written as data: weighted lists, Markov names, sandboxed Twig templates, grammar in six languages, maps, tables with a memory
-- [`tilttek/generator-bundle`](https://github.com/TiltTek/generator-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/generator-bundle)) — Generators in Symfony: commands, Twig, a Stimulus controller and a rate-limited draw API
+- [`tilttek/secret-rolls`](https://github.com/TiltTek/secret-rolls) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/secret-rolls)) — Hidden GM rolls, committed in advance and verifiable after the reveal
+- [`tilttek/heraldry`](https://github.com/TiltTek/heraldry) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/heraldry)) — Coats of arms drawn from a seed, blazoned in English and French, as safe SVG
 - `tilttek/dice-probability-bundle` · 🧪 in incubation — Dice statistics as tables and charts in Live Components
 - `tilttek/loot-tables-bundle` · 🧪 in incubation — Loot tables in Symfony, with published commitments to the draws
 - `tilttek/dice-tower` · 🧪 in incubation — A table's shared dice tower: every roll seen by all, in order
-- `tilttek/secret-rolls` · 🧪 in incubation — Hidden GM rolls, kept verifiable and revealed later
 - `tilttek/dice-jail` · 🧪 in incubation — Dice jail for unlucky dice, and the statistics behind it
 - `tilttek/dice-skins` · 🧪 in incubation — The look of a member's dice
 - `tilttek/luck-tokens` · 🧪 in incubation — Luck, inspiration or fate tokens a table gives and spends
 - `tilttek/card-deck` · 🧪 in incubation — Card decks shuffled, drawn and discarded
-- `tilttek/heraldry` · 🧪 in incubation — Coats of arms generated and blazoned
 
 </details>
 
 <details>
-<summary><b>At the table</b> — 🧪 18</summary>
+<summary><b>At the table</b> — ✅ 1 · 🧪 17</summary>
 
-- `tilttek/table-safety` · 🧪 in incubation — Safety tools: lines and veils, consent checklist, session zero, X-card, anonymous by default
+- [`tilttek/table-safety`](https://github.com/TiltTek/table-safety) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/table-safety)) — Safety tools for tabletop games: lines and veils, anonymous signals, credits
 - `tilttek/table-safety-bundle` · 🧪 in incubation — Safety tools in Symfony, with session-zero templates
 - `tilttek/table-presence` · 🧪 in incubation — Who is at the online table, away or on a break
 - `tilttek/table-rules` · 🧪 in incubation — House rules written and accepted, and the rule variants a table picks
@@ -197,9 +197,10 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 </details>
 
 <details>
-<summary><b>Campaigns &amp; worlds</b> — ✅ 1 · 🧪 15</summary>
+<summary><b>Campaigns &amp; worlds</b> — ✅ 2 · 🧪 14</summary>
 
 - [`tilttek/weather`](https://github.com/TiltTek/weather) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/weather)) — In-world weather: seasons and climate zones, conditions that follow the day before, reproducible from a seed
+- [`tilttek/puzzle-builder`](https://github.com/TiltTek/puzzle-builder) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/puzzle-builder)) — Puzzles checked on the server: normalised answers, bounded guesses, tiered hints, an unlock graph
 - `tilttek/session-scheduler` · 🧪 in incubation — Campaign sessions: recurrence, absences, rescheduling
 - `tilttek/campaign-wiki` · 🧪 in incubation — A campaign wiki and the GM's secrets
 - `tilttek/journal` · 🧪 in incubation — Journals of many kinds: session recaps, character and solo journals
@@ -213,7 +214,6 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 - `tilttek/homebrew-hub` · 🧪 in incubation — House rules shared, rated and reused from table to table
 - `tilttek/fantasy-calendar` · 🧪 in incubation — Fantasy calendars
 - `tilttek/travel` · 🧪 in incubation — Journeys, their duration and their hazards
-- `tilttek/puzzle-builder` · 🧪 in incubation — Riddles and puzzles for a scenario
 - `tilttek/player-handbook` · 🧪 in incubation — A campaign's player handbook
 
 </details>
@@ -233,10 +233,13 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 </details>
 
 <details>
-<summary><b>Games &amp; contests</b> — 🧪 13</summary>
+<summary><b>Games &amp; contests</b> — ✅ 4 · 🧪 10</summary>
 
+- [`tilttek/bingo`](https://github.com/TiltTek/bingo) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/bingo)) — Bingo with cards drawn from a server secret, printed cards that can be verified
+- [`tilttek/deck-builder`](https://github.com/TiltTek/deck-builder) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/deck-builder)) — Card decks built to a format's declared rules, every breach readable, no publisher catalogue
+- [`tilttek/game-engine`](https://github.com/TiltTek/game-engine) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/game-engine)) — Turn-based games as a move log, randomness committed in advance, replay
+- [`tilttek/game-engine-bundle`](https://github.com/TiltTek/game-engine-bundle) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/game-engine-bundle)) — Game tables in Symfony: opaque seats, DBAL, a lock, private Mercure
 - `tilttek/quiz` · 🧪 in incubation — Quizzes: questions, timer, score
-- `tilttek/bingo` · 🧪 in incubation — Bingo cards for a convention or a session, ticked by events
 - `tilttek/mini-games` · 🧪 in incubation — Small games played on the site
 - `tilttek/tavern-games` · 🧪 in incubation — Tavern games from a game world, playable online
 - `tilttek/escape-room` · 🧪 in incubation — Escape rooms: chained puzzles, hints, timer
@@ -244,18 +247,16 @@ raffles never sell chances, packs publish their odds, and leaderboards are opt-i
 - `tilttek/cosplay-contest` · 🧪 in incubation — Cosplay contests: entries, walk-on, jury and public vote
 - `tilttek/cosplay-progress` · 🧪 in incubation — A costume's build log, step by step
 - `tilttek/score-sheets` · 🧪 in incubation — Score sheets
-- `tilttek/deck-builder` · 🧪 in incubation — Build a card deck to a game's rules
-- `tilttek/game-engine` · 🧪 in incubation — A generic state machine for online tabletop games, with Mercure and no game rules
 - `tilttek/turn-clock` · 🧪 in incubation — Turn clocks: initial time, time per move, moves per day
 - `tilttek/jam` · 🧪 in incubation — Themed creation jams with deadlines: entries, votes and jury
 
 </details>
 
 <details>
-<summary><b>Hobbies</b> — ✅ 1 · 🧪 5</summary>
+<summary><b>Hobbies</b> — ✅ 2 · 🧪 4</summary>
 
+- [`tilttek/wargame-army`](https://github.com/TiltTek/wargame-army) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/wargame-army)) — Army lists on a generic engine, against a catalogue the application provides
 - [`tilttek/writing-goals`](https://github.com/TiltTek/writing-goals) · ✅ released ([Packagist](https://packagist.org/packages/tilttek/writing-goals)) — An author's writing goals: a plan that bends to the days they write, and no streak to break
-- `tilttek/wargame-army` · 🧪 in incubation — Army lists for miniature games
 - `tilttek/minis-tracker` · 🧪 in incubation — Track miniatures bought, built and painted
 - `tilttek/paint-recipes` · 🧪 in incubation — Miniature paint recipes: colours, steps, photos
 - `tilttek/reading-quests` · 🧪 in incubation — Reading quests for a book
@@ -373,11 +374,11 @@ probabilités, et les classements se font sur accord.
 
 ✅ **publié** · 🧪 **en incubation**
 
-**129 paquets :** 24 publiés, 105 en incubation. Les paquets publiés sont développés dans
+**130 paquets :** 36 publiés, 94 en incubation. Les paquets publiés sont développés dans
 le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés chacun dans son propre dépôt en lecture seule.
 
 <details>
-<summary><b>Cœur de la ludification</b> — ✅ 15 · 🧪 19</summary>
+<summary><b>Cœur de la ludification</b> — ✅ 18 · 🧪 16</summary>
 
 - [`tilttek/activity`](https://github.com/TiltTek/activity) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/activity)) — L'entrée commune : l'activité d'un membre enregistrée une fois, ses totaux et ses projections rejouables
 - [`tilttek/activity-bundle`](https://github.com/TiltTek/activity-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/activity-bundle)) — L'enregistrement de l'activité dans Symfony, avec projections asynchrones facultatives
@@ -393,21 +394,21 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 - [`tilttek/collections-bundle`](https://github.com/TiltTek/collections-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/collections-bundle)) — Les collections et les sets de dés dans Symfony
 - [`tilttek/exchange`](https://github.com/TiltTek/exchange) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/exchange)) — Échanger des points contre des récompenses en deux temps, et des objets entre membres
 - [`tilttek/leaderboards`](https://github.com/TiltTek/leaderboards) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/leaderboards)) — Classements par mesure et période, sur accord, pseudonymes, cercles d'amis, instantanés
+- [`tilttek/seasonal-events`](https://github.com/TiltTek/seasonal-events) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/seasonal-events)) — Des saisons annuelles par règle RFC 5545, avec contenus et multiplicateurs annoncés
+- [`tilttek/stickers`](https://github.com/TiltTek/stickers) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/stickers)) — Des autocollants posés sur des surfaces, avec limites et modération
 - [`tilttek/advent-calendar`](https://github.com/TiltTek/advent-calendar) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/advent-calendar)) — Le calendrier de l'Avent : une case par jour, une surprise par case
+- [`tilttek/sets`](https://github.com/TiltTek/sets) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/sets)) — Des ensembles versionnés à paliers et récompenses, une brique neutre
 - `tilttek/exchange-bundle` · 🧪 en incubation — Boutiques de récompenses et échanges entre membres dans Symfony
 - `tilttek/leaderboards-bundle` · 🧪 en incubation — Les classements configurés et montrés dans Symfony
 - `tilttek/kudos` · 🧪 en incubation — Les remerciements entre membres, sans décompte public ni classement
 - `tilttek/referrals` · 🧪 en incubation — Le parrainage récompensé en points, jamais en argent
 - `tilttek/guilds` · 🧪 en incubation — Les guildes de membres et leurs objectifs communs
-- `tilttek/seasonal-events` · 🧪 en incubation — Les saisons et leurs événements : quêtes, objets et décors d'une période
 - `tilttek/check-in-rewards` · 🧪 en incubation — La récompense d'une présence, au kiosque d'une boutique ou en convention
-- `tilttek/stickers` · 🧪 en incubation — Les autocollants virtuels des profils et des messages
 - `tilttek/predictions` · 🧪 en incubation — Les prédictions misées en points seulement
 - `tilttek/raffle` · 🧪 en incubation — Les tirages au sort vérifiables, sans achat de chances
 - `tilttek/fan-awards` · 🧪 en incubation — Les prix des fans : catégories, mises en nomination, votes
 - `tilttek/geek-dates` · 🧪 en incubation — Les dates de la culture geek, en données
 - `tilttek/rpg-calendar-events` · 🧪 en incubation — Les événements du calendrier rôliste, en données
-- `tilttek/sets` · 🧪 en incubation — Le code commun des ensembles de badges et de collection, une brique neutre
 - `tilttek/celebrations` · 🧪 en incubation — La boîte des récompenses, qui reçoit les réussites de chaque paquet et montre chacune une fois
 - `tilttek/bounties` · 🧪 en incubation — Les primes ludiques prépayées en points, limitées dans le temps, jamais en argent
 - `tilttek/friend-challenges` · 🧪 en incubation — Les défis créés par les membres, entre amis aussi, avec un prix en points gardé en dépôt
@@ -417,31 +418,31 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 </details>
 
 <details>
-<summary><b>Dés et hasard</b> — ✅ 7 · 🧪 9</summary>
+<summary><b>Dés et hasard</b> — ✅ 9 · 🧪 7</summary>
 
 - [`tilttek/dice`](https://github.com/TiltTek/dice) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice)) — La notation des dés lue, validée et lancée : réserves, faces propres, lancers vérifiables et rejouables
 - [`tilttek/dice-bundle`](https://github.com/TiltTek/dice-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice-bundle)) — Les lancers de dés dans Symfony : lancers rejouables, macros, champ de formulaire et Twig
+- [`tilttek/generator`](https://github.com/TiltTek/generator) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/generator)) — Des générateurs aléatoires écrits comme des données : listes pondérées, noms de Markov, gabarits Twig en bac à sable, grammaire en six langues, cartes, tables à mémoire
+- [`tilttek/generator-bundle`](https://github.com/TiltTek/generator-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/generator-bundle)) — Les générateurs dans Symfony : commandes, Twig, contrôleur Stimulus et API de tirage sous limite de débit
 - [`tilttek/dice-probability`](https://github.com/TiltTek/dice-probability) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/dice-probability)) — Les statistiques exactes des dés : distributions, au moins / au plus, moyenne, événements
 - [`tilttek/loot-tables`](https://github.com/TiltTek/loot-tables) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/loot-tables)) — Des tables de butin qui déclarent leurs dés, tirées de façon vérifiable une seule fois (nom provisoire)
 - [`tilttek/accessible-dice`](https://github.com/TiltTek/accessible-dice) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/accessible-dice)) — Des dés lisibles sans voir les couleurs ni viser de petits boutons, annoncés aux lecteurs d'écran
-- [`tilttek/generator`](https://github.com/TiltTek/generator) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/generator)) — Des générateurs aléatoires écrits comme des données : listes pondérées, noms de Markov, gabarits Twig en bac à sable, grammaire en six langues, cartes, tables à mémoire
-- [`tilttek/generator-bundle`](https://github.com/TiltTek/generator-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/generator-bundle)) — Les générateurs dans Symfony : commandes, Twig, contrôleur Stimulus et API de tirage sous limite de débit
+- [`tilttek/secret-rolls`](https://github.com/TiltTek/secret-rolls) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/secret-rolls)) — Les jets cachés du meneur, engagés d'avance et vérifiables après le dévoilement
+- [`tilttek/heraldry`](https://github.com/TiltTek/heraldry) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/heraldry)) — Des armoiries tirées d'une graine, blasonnées en anglais et en français, en SVG sûr
 - `tilttek/dice-probability-bundle` · 🧪 en incubation — Les statistiques des dés en tableaux et graphiques en Live Component
 - `tilttek/loot-tables-bundle` · 🧪 en incubation — Les tables de butin dans Symfony, avec les engagements publiés des tirages
 - `tilttek/dice-tower` · 🧪 en incubation — La tour de dés commune d'une table : chaque jet vu par tous, dans l'ordre
-- `tilttek/secret-rolls` · 🧪 en incubation — Les jets cachés du meneur, gardés vérifiables et révélés ensuite
 - `tilttek/dice-jail` · 🧪 en incubation — La prison des dés malchanceux, et les statistiques qui la justifient
 - `tilttek/dice-skins` · 🧪 en incubation — L'apparence des dés d'un membre
 - `tilttek/luck-tokens` · 🧪 en incubation — Les jetons de chance, d'inspiration ou de destin qu'une table distribue et dépense
 - `tilttek/card-deck` · 🧪 en incubation — Des paquets de cartes mélangés, tirés et défaussés
-- `tilttek/heraldry` · 🧪 en incubation — Les blasons générés et décrits
 
 </details>
 
 <details>
-<summary><b>À la table</b> — 🧪 18</summary>
+<summary><b>À la table</b> — ✅ 1 · 🧪 17</summary>
 
-- `tilttek/table-safety` · 🧪 en incubation — Outils de sécurité : lignes et voiles, liste de consentement, séance zéro, carte X, anonymes par défaut
+- [`tilttek/table-safety`](https://github.com/TiltTek/table-safety) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/table-safety)) — Des outils de sécurité pour les jeux de table : lignes et voiles, signaux anonymes, crédits
 - `tilttek/table-safety-bundle` · 🧪 en incubation — Les outils de sécurité dans Symfony, avec modèles de séance zéro
 - `tilttek/table-presence` · 🧪 en incubation — Qui est à la table en ligne, absent ou en pause
 - `tilttek/table-rules` · 🧪 en incubation — Les règles maison écrites et acceptées, et les variantes qu'une table choisit
@@ -479,9 +480,10 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 </details>
 
 <details>
-<summary><b>Campagnes et mondes</b> — ✅ 1 · 🧪 15</summary>
+<summary><b>Campagnes et mondes</b> — ✅ 2 · 🧪 14</summary>
 
 - [`tilttek/weather`](https://github.com/TiltTek/weather) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/weather)) — La météo du monde du jeu : saisons et zones climatiques, conditions qui suivent la veille, reproductible à partir d'une graine
+- [`tilttek/puzzle-builder`](https://github.com/TiltTek/puzzle-builder) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/puzzle-builder)) — Des énigmes vérifiées sur le serveur : réponses normalisées, propositions bornées, indices par paliers, graphe de déverrouillage
 - `tilttek/session-scheduler` · 🧪 en incubation — Les séances d'une campagne : récurrence, absences, report
 - `tilttek/campaign-wiki` · 🧪 en incubation — Le wiki d'une campagne et les secrets du meneur
 - `tilttek/journal` · 🧪 en incubation — Un journal à genres : résumés de séance, journaux de personnage et de jeu solo
@@ -495,7 +497,6 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 - `tilttek/homebrew-hub` · 🧪 en incubation — Les règles maison partagées, notées et reprises d'une table à l'autre
 - `tilttek/fantasy-calendar` · 🧪 en incubation — Les calendriers imaginaires
 - `tilttek/travel` · 🧪 en incubation — Les voyages, leurs durées et leurs aléas
-- `tilttek/puzzle-builder` · 🧪 en incubation — Les énigmes et casse-têtes d'un scénario
 - `tilttek/player-handbook` · 🧪 en incubation — Le manuel du joueur d'une campagne
 
 </details>
@@ -515,10 +516,13 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 </details>
 
 <details>
-<summary><b>Jeux et concours</b> — 🧪 13</summary>
+<summary><b>Jeux et concours</b> — ✅ 4 · 🧪 10</summary>
 
+- [`tilttek/bingo`](https://github.com/TiltTek/bingo) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/bingo)) — Le bingo aux cartes tirées d'un secret du serveur, cartes imprimées vérifiables
+- [`tilttek/deck-builder`](https://github.com/TiltTek/deck-builder) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/deck-builder)) — Des paquets de cartes selon les règles déclarées d'un format, chaque infraction lisible, sans catalogue d'éditeur
+- [`tilttek/game-engine`](https://github.com/TiltTek/game-engine) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/game-engine)) — Des jeux au tour par tour en journal de coups, hasard engagé d'avance, rejeu
+- [`tilttek/game-engine-bundle`](https://github.com/TiltTek/game-engine-bundle) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/game-engine-bundle)) — Des tables de jeu dans Symfony : sièges opaques, DBAL, verrou, Mercure privé
 - `tilttek/quiz` · 🧪 en incubation — Les jeux-questionnaires : questions, minuterie, score
-- `tilttek/bingo` · 🧪 en incubation — Les cartes de bingo d'une convention ou d'une séance, cochées par les événements
 - `tilttek/mini-games` · 🧪 en incubation — Les petits jeux qui se jouent dans le site
 - `tilttek/tavern-games` · 🧪 en incubation — Les jeux de taverne d'un univers de jeu, jouables en ligne
 - `tilttek/escape-room` · 🧪 en incubation — Les jeux d'évasion : énigmes enchaînées, indices, chronomètre
@@ -526,18 +530,16 @@ le monodépôt public [`tilttek`](https://github.com/TiltTek/tilttek), scindés 
 - `tilttek/cosplay-contest` · 🧪 en incubation — Le concours de costumes : inscriptions, passage, jury et vote du public
 - `tilttek/cosplay-progress` · 🧪 en incubation — Le journal d'un costume en cours, étape par étape
 - `tilttek/score-sheets` · 🧪 en incubation — Les feuilles de score
-- `tilttek/deck-builder` · 🧪 en incubation — Construire un paquet de cartes selon les règles d'un jeu
-- `tilttek/game-engine` · 🧪 en incubation — Une machine à états générique pour les jeux de table en ligne, avec Mercure et sans règles de jeu
 - `tilttek/turn-clock` · 🧪 en incubation — Les horloges de tour : temps initial, temps par coup, coups par jour
 - `tilttek/jam` · 🧪 en incubation — Les concours de création à thème et à échéance : soumissions, votes et jury
 
 </details>
 
 <details>
-<summary><b>Loisirs</b> — ✅ 1 · 🧪 5</summary>
+<summary><b>Loisirs</b> — ✅ 2 · 🧪 4</summary>
 
+- [`tilttek/wargame-army`](https://github.com/TiltTek/wargame-army) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/wargame-army)) — Des listes d'armée sur un moteur générique, contre un catalogue que fournit l'application
 - [`tilttek/writing-goals`](https://github.com/TiltTek/writing-goals) · ✅ publié ([Packagist](https://packagist.org/packages/tilttek/writing-goals)) — Les objectifs d'écriture d'un auteur : un plan qui suit les jours où il écrit, sans série à briser
-- `tilttek/wargame-army` · 🧪 en incubation — Les listes d'armée d'un jeu de figurines
 - `tilttek/minis-tracker` · 🧪 en incubation — Le suivi des figurines achetées, montées et peintes
 - `tilttek/paint-recipes` · 🧪 en incubation — Les recettes de peinture des figurines : couleurs, étapes, photos
 - `tilttek/reading-quests` · 🧪 en incubation — Les quêtes de lecture d'un livre
